@@ -1,0 +1,32 @@
+
+
+The smallest thing we need to do for our site.
+-	Include 3 reviews about coffee places and the rating (no necessarily store user data with the review).
+-	We don’t need to focus on user, profiles,
+-	We need to display how many people have rate that place (numbers).
+
+Sprint "Alpha":
+1.	Upload the site’s files on gitHub/server - mark/Wan
+2.	Coding diggs system. - Wan
+3.	Create database for dig counts - Wan
+4.	Incorporate the digg system into the page. - Wan
+5.	3 reviews about coffee places/diggs(pictures-real places/coffee and content). - luis
+6.	Update homepage based on wireframe:
+a.	add logo to header - Andy
+b.	update copyright 
+c.	adapt to wireframe using Bootstrap
+7.	Design logo. - Sunny
+8.	Wireframe/Architecture.  - Bo/Sunny
+
+
+Other Tasks:
+1.	Decide what categories we should have for sorting coffees
+2.	Decide which social media platforms we should have "share" features to
+
+Needs to be done during this quarter:
+●	Feature on the site (diggs system/like coffee, list coffee, profile page for each type of coffee, social media buttons, copyright in the bottom, search box, sorting options, feature coffee, one page design, contact info).
+●	Architecture.
+●	Wireframing.
+●	Visual Design.
+●	Logo.
+
