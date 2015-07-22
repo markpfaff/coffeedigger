@@ -1,6 +1,6 @@
 <?php
 
-function search_post($term){
+function search_posts($term){
 	$keywords = preg_split('#\s+#', mysql_real_escape_string($term));
 	
 	/*print_r($keywords);*/	
