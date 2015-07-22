@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !^/coffeedigger/
+
+# Rewrites all URLS [Replace "domain" with the actual domain, without the TLD (.com, .net, .biz, etc)]
+RewriteCond %{HTTP_HOST} ^(www\.)?coffeedigger\.
+
+# Rewrite all those to insert /folder
+RewriteRule ^(.*)$ /coffeedigger/$1 [L]
