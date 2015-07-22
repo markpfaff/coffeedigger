@@ -14,3 +14,5 @@ Andy: Hmmm...  O_o; Hard and challenging but yet kind of fun this is. So many em
 Sunny: hihihihihi
 
 Wan: Finally
+
+Andy: Testing out setting up pull requests through command line.
