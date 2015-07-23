@@ -1,7 +1,7 @@
 <?php
 
 include('core/init.inc.php');
-
+include('creds.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -89,17 +89,6 @@ include('core/init.inc.php');
             <img src ="images/kangaroo.jpg" alt=""/>
             <hr />
             <h2>Dig it!</h2>
-            <?php 
-             $con=mysqli_connect("mysql.coffeedigger.com","coffeedigger","coffeedigger#","coffeediggerdb");
-            // Check connection
-            if (mysqli_connect_errno())
-            {
-            echo "Failed to connect to MySQL: " . mysqli_connect_error();
-            }
-
-            $result = mysqli_query($con,"SELECT digs FROM coffee WHERE ID = 1");
-
-            ?>
             <form class="form-horizontal" id="form_members" role="form" action="send_formdata_coffees.php" method="POST">
                     <h3>Awesome Coffee</h3>
 
