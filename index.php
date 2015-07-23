@@ -1,3 +1,8 @@
+<?php
+
+include('core/init.inc.php');
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -84,6 +89,17 @@
             <img src ="images/kangaroo.jpg" alt=""/>
             <hr />
             <h2>Dig it!</h2>
+            <?php 
+             $con=mysqli_connect("mysql.coffeedigger.com","coffeedigger","coffeedigger#","coffeediggerdb");
+            // Check connection
+            if (mysqli_connect_errno())
+            {
+            echo "Failed to connect to MySQL: " . mysqli_connect_error();
+            }
+
+            $result = mysqli_query($con,"SELECT digs FROM coffee WHERE ID = 1");
+
+            ?>
             <form class="form-horizontal" id="form_members" role="form" action="send_formdata_coffees.php" method="POST">
                     <h3>Awesome Coffee</h3>
 
@@ -170,8 +186,8 @@
                             }
 
                             foreach ($search_results as $result){
-                                echo "<h3>{$result['title']}</h3>";
-                                echo "<p>{$result['body']}</p>";
+                                echo "<h3>Results:</h3>";
+                                echo "<h4>{$result['title']}</h4>";
                                 }
                         }
                 ?>

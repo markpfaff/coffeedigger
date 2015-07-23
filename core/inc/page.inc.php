@@ -5,15 +5,9 @@ function search_posts($term){
 	
 	/*print_r($keywords);*/	
 	
-	$title_where = "`post_title` LIKE '%" . implode("%' OR `post_title` LIKE '%", $keywords) . "%'";
-	$body_where = "`post_body` LIKE '%" . implode("%' OR `post_body` LIKE '%", $keywords) . "%'";
+	$title_where = "`name` LIKE '%" . implode("%' OR `post_title` LIKE '%", $keywords) . "%'";
 	
-	$sql = "SELECT
-		`post_title` AS `title`,
-		LEFT(`post_body`, 100) AS `body`
-	FROM `posts`;
-	WHERE {$title_where}
-	OR {$body_where}";
+	$sql = "SELECT `name` AS `title` FROM `coffee` WHERE {$title_where}";
 	
 	$result = mysql_query($sql);
 	
