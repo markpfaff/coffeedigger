@@ -105,15 +105,10 @@ include('includes/config.php');
 
             </form>
             <hr />
-
-            <?php 
-            // Connect to the database
-            include('config.php'); 
-            $id_post = "1"; //the post or the page id
-            ?>
             <h2>Comments!</h2>
             <div class="cmt-container" >
-                <?php 
+                <?php
+		$id_post = "1"; //the post or the page id; 
                 $sql = mysql_query("SELECT * FROM comment WHERE id_post = '$id_post'") or die(mysql_error());;
                 while($affcom = mysql_fetch_assoc($sql)){ 
                     $name = $affcom['name'];
@@ -219,7 +214,7 @@ include('includes/config.php');
                     }else{ 
                         $.ajax({
                             type: "POST",
-                            url: "ajax/add-comment.php",
+                            url: "includes/add-comment.php",
                             data: 'act=add-com&id_post='+<?php echo $id_post; ?>+'&name='+theName.val()+'&email='+theMail.val()+'&comment='+theCom.val(),
                             success: function(html){
                                 theCom.val('');
