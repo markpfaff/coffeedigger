@@ -1,8 +1,7 @@
 <?php
-
-include('core/init.inc.php');
-include('creds.php');
-?>
+//coffeedigger home page
+include('includes/config.php');
+?>	
 <!DOCTYPE html>
 <html>
 
