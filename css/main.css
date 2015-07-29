@@ -1,0 +1,144 @@
+body {
+ background-color:#FFF2DF
+}
+    
+header {
+    height: 200px;
+    margin-top: 30px;
+    
+}
+
+.searchbox {
+    margin: 25% auto 0 10%;
+}
+
+
+nav ul {
+    margin: 25% 0 0 25%;
+    list-style-type: none;
+    color: white;
+}
+
+img.icon {
+    margin: 0 auto 0 5%;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+nav ul li a{
+    color: #6F372E;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #F5C55D
+        
+}
+
+.filter {
+    height: 60px;
+    background-color: #6F372E;
+    padding-top:13px;
+    padding-left:5%;
+}
+
+.filter label {
+    margin-left: 3%;
+    color: white;
+}
+
+
+
+.filter select {
+    margin-left: 2%;
+}
+
+.filtergo {
+    margin-left: 3%;
+}
+
+.filter .form-control {
+    width: 12%;
+    display: inline;
+}
+
+.mainbean {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.img-rounded {
+    width: 85%;
+    margin-left: 7.5%;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    margin-top: 30px;
+    height: 100px;
+    background-color: #6F372E;
+}
+
+
+footer p {
+    font-size: 1.5em;
+    color:white;
+    display: inline;
+    line-height: 100px;
+}
+
+
+.overview {
+    margin:10px 5px 10px 5px;
+    background-color: #F5C55D;
+}
+
+hr {
+    width: 75%;
+    border: 1px solid #6F372E;
+}
+
+.overview h3,
+.review p {
+    display: inline;
+    
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.review {
+    padding-top: 15px;
+    margin:0 0 -15px 25px;
+}
+
+
+.review img {
+display: inline;
+}
+
+.review img {
+    margin-left: 3.8em;
+}
+
+
+
+.fa-facebook, .fa-instagram {
+	color:white;
+	font-size:30px;	
+	display:block;
+}
+
+.social {
+	padding-top:3%;
+	padding-left:12%;
+}
+
+.copy {
+	padding-left:12%;
+}
