@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     
 </head>
@@ -17,7 +18,8 @@
 <body>
 <!--header -->
 <header>
- 
+
+<div class="container">
 <div class="col-md-4">
 <nav>
 <ul>
@@ -33,7 +35,10 @@
 </div>
 
 
-<div class="col-md-4 from-group">
+<div class="col-md-4">
+
+<div class="from-group">
+
 <form class="navbar-form searchbox" role="search">
                      <div class="input-group">
                           <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
@@ -42,9 +47,11 @@
                            </div>
                      </div>
                    </form>
-                   
+        
+</div>                   
 </div>    
-    
+
+</div>    
 </header>
 
 
@@ -363,9 +370,18 @@
 <!--footer -->
 <footer class="foooter">
 <div class="container">
-    <p class="col-md-6" id="footer1">Copyright &copy;2015</p> 
-    <p class="col-md-6">Webdesign by Kangaroo</p>
-    </div>
+    <div class="col-md-4 copy"><p>Copyright &copy;2015</p></div> 
+    
+        <div class="col-md-4 social"> 
+
+<a href="#" class="btn btn-social-icon btn-instagram"> <i class="fa fa-instagram"></i></a>
+
+<a href="#" class="btn btn-social-icon btn-facebook"> <i class="fa fa-facebook"></i></a>
+
+</div>
+    
+    <div class="col-md-4"><p>Webdesign by Kangaroo</p></div>
+
 </footer>
 
 </body>
