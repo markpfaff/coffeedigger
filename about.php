@@ -125,6 +125,7 @@ include('includes/config.php');
 
 
 <!--section -->
+<!--section -->
 <section>
 <!--Container for grid-->
 <div class="container">
@@ -132,252 +133,30 @@ include('includes/config.php');
 <!--Images for groups-->
 	<div class="mainbean">
 
-        
+    
         <div class="row">
-			<div class="col-md-3">
+    
+    		<div class="col-md-6">  
+          <div class="overview">
+          	<div class="review">
+         <img src="images/cup.jpg" class="img-rounded" alt="images for shops">  
+            </div>
+          </div>
+          </div>
+          
+            <div class="col-md-6">
                 <div class="overview">
-                
-                <div class="review">
-                <h3>Coffee1</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
+                  <h3>About Us</h3>
+                  
+                  <hr>
+                <p>Duis consequat vestibulum ultricies. Nulla vulputate, felis eget sagittis sodales, diam justo consectetur dui, id iaculis erat augue a odio. Nam imperdiet libero vitae ex gravida posuere. Aliquam erat sapien, laoreet quis blandit non, ultrices sit amet dolor. In nec commodo orci. Morbi non tristique nunc, sed volutpat nisi. Donec nec iaculis velit.</p>
 				
-                <div class="review">
-                <h3>Coffee2</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quam metus, posuere sed tempus vel, hendrerit ac felis. Vestibulum purus lacus, luctus ac nibh eu, aliquet semper sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla consectetur, ex accumsan rhoncus tristique, diam dolor lacinia nisl, nec scelerisque mauris eros a tortor. Sed molestie commodo gravida. Integer euismod feugiat placerat. Ut volutpat purus eu erat feugiat congue. Cras eu velit id nulla molestie imperdiet quis eu dolor. Aenean euismod vehicula mauris, non pellentesque mauris rhoncus sit amet. Proin aliquam ultrices risus, at congue ipsum posuere ac.</p>
+                  <hr>
+             <blockquote><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend.</q></blockquote>     
+              </div>   
 			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee3</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee4</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-		</div> <!--End container for Row-->
-        
-        <div class="row">
-			<div class="col-md-3">
-                <div class="overview">
-                
-                <div class="review">
-                <h3>Coffee5</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee6</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee7</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee8</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-		</div> <!--End container for Row-->
-        
-        <div class="row">
-			<div class="col-md-3">
-                <div class="overview">
-                
-                <div class="review">
-                <h3>Coffee9</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee10</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee11</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee12</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-		</div> <!--End container for Row-->
-        
-           <div class="row">
-			<div class="col-md-3">
-                <div class="overview">
-                
-                <div class="review">
-                <h3>Coffee13</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee14</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee15</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-            <div class="col-md-3">
-                <div class="overview">
-				
-                <div class="review">
-                <h3>Coffee16</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
-                </div>
-                    
-                    
-                <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
-                </div>
-			</div>
-			
-		</div> <!--End container for Row-->
-
-        
+		</div> <!--End container for Row-->    
 	</div> <!--End container for images-->
 </div> <!--End container-->
 
@@ -397,6 +176,9 @@ include('includes/config.php');
 </div>
     
     <div class="col-md-4"><p>Webdesign by Kangaroo</p></div>
+
+</div></footer>
+
 
 </footer>
 
