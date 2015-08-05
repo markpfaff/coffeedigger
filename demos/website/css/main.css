@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'olivierregular';
+    src: url('../fonts/olivier_demo-webfont.eot');
+    src: url('../fonts/olivier_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/olivier_demo-webfont.woff2') format('woff2'),
+         url('../fonts/olivier_demo-webfont.woff') format('woff'),
+         url('../fonts/olivier_demo-webfont.ttf') format('truetype'),
+         url('../fonts/olivier_demo-webfont.svg#olivierregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
  background-color:#FFF2DF
 }
@@ -141,4 +153,12 @@ display: inline;
 
 .copy {
 	padding-left:12%;
+}
+
+label {
+	font-family:'olivierregular', Arial, Helvetica;
+}
+
+h3 {
+	font-family:'olivierregular', Arial, Helvetica;	
 }
