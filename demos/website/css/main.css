@@ -157,8 +157,10 @@ display: inline;
 
 label {
 	font-family:'olivierregular', Arial, Helvetica;
+	font-size:1.5em;
 }
 
 h3 {
 	font-family:'olivierregular', Arial, Helvetica;	
+	font-size:1.5em;
 }
