@@ -123,9 +123,6 @@ include('includes/config.php');
 </div>
 
 
-
-<!--section -->
-<!--section -->
 <section>
 <!--Container for grid-->
 <div class="container">
@@ -137,16 +134,14 @@ include('includes/config.php');
         <div class="row">
     
     		<div class="col-md-6">  
-          <div class="overview">
-          	<div class="review">
-         <img src="images/cup.jpg" class="img-rounded" alt="images for shops">  
+          	<div class="about-pic">
+         <img alt="image for about page" class="about" src="images/cup.jpg">  
             </div>
-          </div>
           </div>
           
             <div class="col-md-6">
                 <div class="overview">
-                  <h3>About Us</h3>
+                  <h3 class="about">About Us</h3>
                   
                   <hr>
                 <p>Duis consequat vestibulum ultricies. Nulla vulputate, felis eget sagittis sodales, diam justo consectetur dui, id iaculis erat augue a odio. Nam imperdiet libero vitae ex gravida posuere. Aliquam erat sapien, laoreet quis blandit non, ultrices sit amet dolor. In nec commodo orci. Morbi non tristique nunc, sed volutpat nisi. Donec nec iaculis velit.</p>
@@ -177,9 +172,7 @@ include('includes/config.php');
     
     <div class="col-md-4"><p>Webdesign by Kangaroo</p></div>
 
-</div></footer>
-
-
+</div>
 </footer>
 
 </body>
