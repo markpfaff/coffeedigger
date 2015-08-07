@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'olivierregular';
-    src: url('../fonts/olivier_demo-webfont.eot');
-    src: url('../fonts/olivier_demo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/olivier_demo-webfont.woff2') format('woff2'),
-         url('../fonts/olivier_demo-webfont.woff') format('woff'),
-         url('../fonts/olivier_demo-webfont.ttf') format('truetype'),
-         url('../fonts/olivier_demo-webfont.svg#olivierregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
  background-color:#FFF2DF
 }
@@ -95,6 +83,7 @@ footer {
     margin-top: 30px;
     height: 100px;
     background-color: #6F372E;
+	clear:both;
 }
 
 
@@ -140,11 +129,23 @@ display: inline;
 
 
 
-.fa-facebook, .fa-instagram {
+.fa-facebook, 
+.fa-instagram {
 	color:white;
 	font-size:30px;	
 	display:block;
 }
+
+.fa-facebook:hover, 
+.fa-instagram:hover {
+	color: #F5C55D;
+	
+}
+
+
+
+
+
 
 .social {
 	padding-top:3%;
@@ -155,12 +156,61 @@ display: inline;
 	padding-left:12%;
 }
 
-label {
-	font-family:'olivierregular', Arial, Helvetica;
-	font-size:1.5em;
+
+
+/*Contact Us Page Style*/
+
+
+.contact{ 
+	background-color:#6F372E;
+	height:60px;
 }
 
-h3 {
-	font-family:'olivierregular', Arial, Helvetica;	
-	font-size:1.5em;
+.contact h1 {
+	padding-top:10px;
+	color:#ffffff;
 }
+
+.contact-form {
+	margin-top:30px;
+	padding:0 0 40px 40px; 
+}
+
+.contact-lable
+{
+	color:#6F372E;
+	display:block;
+	
+}
+
+.contact-input
+{
+	font-size:18px;
+	color:#6F372E;
+	
+}
+
+.btn-group-lg {
+	margin-top:10px;
+}
+
+.contact-submit {
+	background-image:none;
+	background-color: #6F372E;
+	color:#FFFFFF;
+	border:none;
+	
+}
+
+.contact-submit:hover {
+    background-image:none !important;
+	background-color: #F5C55D !important;
+	border:none;
+        
+}	
+
+.thankyou {
+	margin: -20px 0 30px 0;
+	}
+
+
