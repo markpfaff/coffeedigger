@@ -6,8 +6,8 @@
 	
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link type="text/css" rel="stylesheet" href="comment/css/style.css">
-    <link type="text/css" rel="stylesheet" href="comment/css/example.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/example.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>.
@@ -58,7 +58,7 @@
 <div class="form-group filter">
 
     <!--<div class="col-md-4 "><h1><< Back to Dig</h1></div>-->
-    <div class="col-md-4 "><a href="http://lgamboa.com/website-coffedigger2/index.php"><h1><< Back to Dig</h1></a></div>
+    <div class="col-md-4 "><a href="index.php"><h1><< Back to Dig</h1></a></div>
     <div class="col-md-4 copy"><h2>Coffee </h2></div>
         
 </div>
