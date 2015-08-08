@@ -28,14 +28,14 @@ include('includes/config.php');
 <nav>
 <ul>
 	<li><a href="about.php">About</a></li>
-	<li><a href="contact.html">Contact</a></li>
+	<li><a href="contact.php">Contact</a></li>
 </ul>
 </nav>
 </div>    
     
 <div class="logo col-md-4">
     
-        <a href="index.html"><img class="icon" alt="logo" src="images/logo.png" title="link back to main page"></a>
+        <a href="index.php"><img class="icon" alt="logo" src="images/logo.png" title="link back to main page"></a>
 </div>
 
 
@@ -140,13 +140,13 @@ include('includes/config.php');
                 <div class="overview">
                 
                 <div class="review">
-                <h3>Coffee1</h3>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <a href="profile.php"><h3>Coffee1</h3></a>
+                    <img src="images/shovel.png" alt="shovel" >
+                    <p>123</p>
                 </div>
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+                <a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -154,13 +154,13 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee2</h3>
+                <a href="profile.php"><h3>Coffee2</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                 
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -168,14 +168,14 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee3</h3>
+                <a href="profile.php"><h3>Coffee3</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -183,14 +183,14 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee4</h3>
+                <a href="profile.php"><h3>Coffee4</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -201,13 +201,13 @@ include('includes/config.php');
                 <div class="overview">
                 
                 <div class="review">
-                <h3>Coffee5</h3>
+                <a href="profile.php"><h3>Coffee5</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -215,13 +215,13 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee6</h3>
+                <a href="profile.php"><h3>Coffee6</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                 
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -229,14 +229,14 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee7</h3>
+                <a href="profile.php"><h3>Coffee7</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -244,14 +244,14 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee8</h3>
+                <a href="profile.php"><h3>Coffee8</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -262,13 +262,13 @@ include('includes/config.php');
                 <div class="overview">
                 
                 <div class="review">
-                <h3>Coffee9</h3>
+                <a href="profile.php"><h3>Coffee9</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -276,13 +276,13 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee10</h3>
+                <a href="profile.php"><h3>Coffee10</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                 
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -290,14 +290,14 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee11</h3>
+                <a href="profile.php"><h3>Coffee11</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -305,14 +305,14 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee12</h3>
+                <a href="profile.php"><h3>Coffee12</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -323,13 +323,13 @@ include('includes/config.php');
                 <div class="overview">
                 
                 <div class="review">
-                <h3>Coffee13</h3>
+                <a href="profile.php"><h3>Coffee13</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -337,13 +337,13 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee14</h3>
+                <a href="profile.php"><h3>Coffee14</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                 
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -351,14 +351,14 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee15</h3>
+                <a href="profile.php"><h3>Coffee15</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+				<a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -366,14 +366,14 @@ include('includes/config.php');
                 <div class="overview">
 				
                 <div class="review">
-                <h3>Coffee16</h3>
+                <a href="profile.php"><h3>Coffee16</h3></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
                     
                     
                 <hr>
-				<img src="images/bean1.jpg" class="img-rounded" alt="images for shops" >
+                <a href="profile.php"><img src="images/bean1.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
