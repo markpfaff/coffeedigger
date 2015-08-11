@@ -63,49 +63,21 @@ include('includes/config.php');
 
 <!--section -->
 <section>
-    
-<?php 
- 
-//	  if(isset($_GET['name'])){ 
-//	  if(preg_match("/^[  a-zA-Z]+/", $_GET['name'])){ 
-//        $name=$_GET['name']; 
-//        //connect  to the database 
-//  	  $db=mysql_connect  ("mysql.markpfaff.com", "mp_coffeedigger",  "kanga#roo") or die ('I cannot connect to the database  because: ' . mysql_error()); 
-//        //-select  the database to use 
-//  	  $mydb=mysql_select_db("mp_coffeediggerdb"); 
-//        //-query  the database table 
-//        $sql="SELECT  ID, name, digs FROM coffee WHERE name LIKE '%" . $name .  "%' "; 
-//        //-run  the query against the mysql query function 
-//        $result=mysql_query($sql); 
-//        //-create  while loop and loop through result set 
-//        while($row=mysql_fetch_array($result)){ 
-//            $name =$row['name']; 
-//            $digs =$row['digs']; 
-//            $ID=$row['ID']; 
-//            //-display the result of the array 
-//            echo "<ul>\n"; 
-//            echo "<li>" . "<a  href=\"search.php?id=$ID\">"   .$name . " " . $digs .  "</a></li>\n"; 
-//            echo "</ul>"; 
-//            } 
-//      }else{ 
-//        echo  "<p>Please enter a search query</p>"; 
-//      } 
-//	  } 
- 
-                    if (empty($_GET['term']) === false){
-                        $search_results = search_posts($_GET['term']);
+    <?php
+    echo "<h3>Results:</h3>";
+    if (empty($_GET['term']) === false){
+        $search_results = search_posts($_GET['term']);
 
-                        if (empty($search_results)){
-                            echo 'Your search returned no results.';
-                            }
+        if (empty($search_results)){
+            echo 'Your search returned no results.';
+            }
 
-                            foreach ($search_results as $result){
-                                $string = preg_replace('/\s+/', '', $result['title']);
-                                echo "<h3>Results:</h3>";
-                                echo "<a href='{$string}-profile.php'> <h4>{$result['title']}</h4></a>";
-                                }
-                        }
-                		?>
+            foreach ($search_results as $result){
+                $string = preg_replace('/\s+/', '', $result['title']);
+                echo "<a href='{$string}-profile.php'> <h4>{$result['title']}</h4></a>";
+                }
+        }
+    ?>
 </section>
 
 <!--footer -->
