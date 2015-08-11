@@ -43,24 +43,24 @@ include('includes/config.php');
 
 <div class="from-group">
 
-<form class="navbar-form searchbox" role="search">
+    <form class="navbar-form searchbox" action="search.php" role="search">
                      <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Search" name="term" id="srch-term">
+                          <input type="text" class="form-control" placeholder="Enter Coffee Name" name="term" id="srch-term">
                             <div class="input-group-btn">
                                  <button class="btn btn-default" type="submit" value="search"><span class="glyphicon glyphicon-search"></span></button>
                     <?php
-                    if (empty($_GET['term']) === false){
-                        $search_results = search_posts($_GET['term']);
-
-                        if (empty($search_results)){
-                            echo 'Your search returned no results.';
-                            }
-
-                            foreach ($search_results as $result){
-                                echo "<h3>Results:</h3>";
-                                echo "<h4>{$result['title']}</h4>";
-                                }
-                        }
+//                    if (empty($_GET['term']) === false){
+//                        $search_results = search_posts($_GET['term']);
+//
+//                        if (empty($search_results)){
+//                            echo 'Your search returned no results.';
+//                            }
+//
+//                            foreach ($search_results as $result){
+//                                echo "<h3>Results:</h3>";
+//                                echo "<h4>{$result['title']}</h4>";
+//                                }
+//                        }
                 		?>
                            </div>
                      </div>
