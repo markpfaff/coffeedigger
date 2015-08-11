@@ -1,3 +1,16 @@
+h1 {
+ display: inline;
+ color: #FFF;
+ font-size:2em;
+}
+
+h2 {
+	display: inline;
+	color: #FFF;
+	/*font-size: 2em;*/
+	text-align: center;	
+}
+
 body {
  background-color:#FFF2DF
 }
@@ -82,6 +95,7 @@ footer {
     margin-top: 30px;
     height: 100px;
     background-color: #6F372E;
+    clear:both;
 }
 
 
@@ -90,6 +104,7 @@ footer p {
     color:white;
     display: inline;
     line-height: 100px;
+
 }
 
 
@@ -131,6 +146,12 @@ display: inline;
 	color:white;
 	font-size:30px;	
 	display:block;
+}
+
+.fa-facebook:hover, 
+.fa-instagram:hover {
+	color: #F5C55D;
+	
 }
 
 .social {
@@ -177,7 +198,65 @@ h3.about{
     margin:10px 5px 10px 5px;  
 }
 
-/*-------------------------------------------PROFILE STYLE BEGINS-------------------------------------------*/
+
+/*-----------CONTACT PAGE STYLE BEGINS--------------*/
+
+
+.contact{ 
+	background-color:#6F372E;
+	height:60px;
+}
+
+.contact h1 {
+	padding-top:10px;
+	color:#ffffff;
+}
+
+.contact-form {
+	margin-top:30px;
+	padding:0 0 40px 40px; 
+}
+
+.contact-lable
+{
+	color:#6F372E;
+	display:block;
+	
+}
+
+.contact-input
+{
+	font-size:18px;
+	color:#6F372E;
+	
+}
+
+.btn-group-lg {
+	margin-top:10px;
+}
+
+.contact-submit {
+	background-image:none;
+	background-color: #6F372E;
+	color:#FFFFFF;
+	border:none;
+	
+}
+
+.contact-submit:hover {
+    background-image:none !important;
+	background-color: #F5C55D !important;
+	border:none;
+        
+}	
+
+.thankyou {
+	margin: -20px 0 30px 0;
+	}
+/*-----------CONTACT PAGE STYLE ENDS--------------*/
+
+
+/*-----------PROFILE STYLE BEGINS--------------*/
 #content {
 	width: 290px;
 	float: left;

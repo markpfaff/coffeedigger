@@ -33,7 +33,7 @@
     
 <div class="logo col-md-4">
     
-        <a href="index.php"><img class="icon" alt="logo" src="img/logo.png" title="link back to main page"></a>
+        <a href="index.php"><img class="icon" alt="logo" src="images/logo.png" title="link back to main page"></a>
 </div>
 
 
@@ -120,15 +120,6 @@ echo "<h4>Your message has been sucessfuly submitted. We will try to get back to
 ?>
    
 </div> 
-
-
-
-
-
-
-
-
-
 
 
 <!--footer -->
