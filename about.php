@@ -132,23 +132,40 @@ include('includes/config.php');
 
     
         <div class="row">
-    
-    		<div class="col-md-6">  
-          	<div class="about-pic">
-         <img alt="image for about page" class="about" src="images/cup.jpg">  
-            </div>
-          </div>
-          
-            <div class="col-md-6">
+   
+            <div class="col-md-12">
                 <div class="overview">
                   <h3 class="about">About Us</h3>
-                  
+							<div class="about-pic">
+								<img alt="image for about page" class="about" src="images/cup.jpg">  
+							</div>
                   <hr>
-                <p>Duis consequat vestibulum ultricies. Nulla vulputate, felis eget sagittis sodales, diam justo consectetur dui, id iaculis erat augue a odio. Nam imperdiet libero vitae ex gravida posuere. Aliquam erat sapien, laoreet quis blandit non, ultrices sit amet dolor. In nec commodo orci. Morbi non tristique nunc, sed volutpat nisi. Donec nec iaculis velit.</p>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quam metus, posuere sed tempus vel, hendrerit ac felis. Vestibulum purus lacus, luctus ac nibh eu, aliquet semper sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla consectetur, ex accumsan rhoncus tristique, diam dolor lacinia nisl, nec scelerisque mauris eros a tortor. Sed molestie commodo gravida. Integer euismod feugiat placerat. Ut volutpat purus eu erat feugiat congue. Cras eu velit id nulla molestie imperdiet quis eu dolor. Aenean euismod vehicula mauris, non pellentesque mauris rhoncus sit amet. Proin aliquam ultrices risus, at congue ipsum posuere ac.</p>
+				  
+				 <div class="about-info">
+					<div class="about-headings">Our Mission</div>
+						<p>COffeedigger's mission is to provide a more detail oriented convenient search option for coffee. Our site will allow users to not just search for coffee, it will allow users to filter their searches as well gibing them more in depth seaching capabilities.</p>
+
+					<div class="about-headings">The Team</div>
+					<p>The website was built by a webteam of 6 skilled individuals that all had their own skills to contribute to the building of the website.  These are the individuals who worked on building the site.</p>
+					
+					<ul class="about-lists">
+						<li class="bold">Sunny Eun</li>
+						<li>Design Head</li>
+						<li class="bold">Luis Gamboa</li>
+						<li>Slacker</li>
+						<li class="bold">Wan</li>
+						<li>Tech Lead</li>
+						<li class="bold">Mark Pfaff</li>
+						<li>Project Manager</li>
+						<li class="bold">Bo Zhang</li> 
+						<li>Architect</li>
+						<li class="bold">Andy Davis</li>
+						<li>Scrum Master</li>
+					</ul>
+			
                   <hr>
-             <blockquote><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend.</q></blockquote>     
+				<blockquote><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend.</q></blockquote>  
+				</div>
               </div>   
 			</div>
 		</div> <!--End container for Row-->    
