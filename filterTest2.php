@@ -125,7 +125,7 @@ include('includes/config.php');
 		<div class="stumptown col-md-3">
                 <div class="overview">
                 
-                <div class="stumptown $10-$15 light single-origin drip">
+                <div class="stumptown indonesia trending $10-$15 light single-origin drip">
                     <a href="profile.php"><h3>Indonesia Bies Penantan</h3><h5>by Stumptown</h5></a>
                     <img src="images/shovel.png" alt="shovel" >
                     <p>123</p>
@@ -135,7 +135,7 @@ include('includes/config.php');
                 <a href="profile.php"><img src="images/indonesia-sulawesi.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>    
-          <div class="herkimer light $20- single-origin drip col-md-3">
+          <div class="herkimer light africa trending $20- single-origin drip col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -148,7 +148,7 @@ include('includes/config.php');
 				<a href="profile.php"><img src="images/kenya-ngunguru.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
-            <div class="caffe-vita medium $20- single-origin drip col-md-3">
+            <div class="caffe-vita medium africa $20- single-origin drip col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -176,7 +176,7 @@ include('includes/config.php');
 				<a href="profile.php"><img src="images/french-roast.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
-			<div class="seattle-coffee-works $10-$15 single-origin medium drip espresso col-md-3">
+			<div class="seattle-coffee-works trending latin-america $10-$15 single-origin medium drip espresso col-md-3">
                 <div class="overview">
                 
                 <div class="review">
@@ -190,7 +190,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="starbucks $0-$10 medium drip col-md-3">
+            <div class="starbucks $0-$10 medium drip blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -204,7 +204,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="tullys dark drip $0-$10 col-md-3">
+            <div class="tullys dark drip $0-$10 blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -219,7 +219,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="victrola light drip espresso $10-$15 single-origin col-md-3">
+            <div class="victrola light africa drip espresso $10-$15 single-origin col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -247,7 +247,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="seattle-coffee-works $10-$15 single-origin drip light col-md-3">
+            <div class="seattle-coffee-works africa $10-$15 single-origin drip light col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -261,7 +261,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="starbucks $0-$10 dark espresso col-md-3">
+            <div class="starbucks $0-$10 dark blend espresso col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -276,7 +276,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="starbucks $0-$10 dark drip col-md-3">
+            <div class="starbucks $0-$10 dark blend drip col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -291,7 +291,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-			<div class="fonte col-md-3">
+			<div class="fonte blend col-md-3">
                 <div class="overview">
                 
                 <div class="review">
@@ -305,7 +305,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="victrola col-md-3">
+            <div class="victrola blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -319,7 +319,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="starbucks $0-$10 dark espresso col-md-3">
+            <div class="starbucks $0-$10 dark espresso blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -334,7 +334,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="starbucks trending $0-$10 dark espresso col-md-3">
+            <div class="starbucks trending $0-$10 dark espresso blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
