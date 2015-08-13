@@ -377,13 +377,12 @@ a {
     padding-top: 13px;
 }
 
-
 ul.filter-function {  
     list-style: none; 
     margin: 0 auto; 
     width: 100%;
     padding:10px;
-
+    margin-left:5%;
 }
 
 ul.filter-function,
@@ -423,7 +422,8 @@ ul.filter-function li {
     font-size: 1.4em;
 }
 
-ul.filter-function li a {
+ul.filter-function li a,
+.filter-title {
     display: block;
     white-space: nowrap;
     line-height:22px;

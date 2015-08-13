@@ -66,7 +66,7 @@ include('includes/config.php');
 
 <ul class="filter-function">
   <li class="current"><a href="#">All</a></li>
-  <li><a href="#">Roaster</a>
+  <li><span class="filter-title">Roaster</span>
         <ul class="filter-function">
             <li><a href="#">Stumptown</a></li>
             <li><a href="#">Caffe Vita</a></li>
@@ -78,7 +78,7 @@ include('includes/config.php');
             <li><a href="#">Herkimer</a></li>
         </ul>
   </li>
-  <li><a href="#">Type</a>
+  <li><span class="filter-title">Type</span>
         <ul class="filter-function">
             <li><a href="#">Espresso</a></li>
             <li><a href="#">Drip</a></li>
@@ -87,21 +87,21 @@ include('includes/config.php');
             <li><a href="#">Single Origin</a></li>
         </ul>
   </li>
-  <li><a href="#">Roast</a>
+  <li><span class="filter-title">Roast</span>
         <ul class="filter-function">
             <li><a href="#">Light</a></li>
             <li><a href="#">Medium</a></li>
             <li><a href="#">Dark</a></li>
         </ul>
   </li>
-  <li><a href="#">Region</a>
+  <li><span class="filter-title">Region</span>
         <ul class="filter-function">
             <li><a href="#">Africa</a></li>
             <li><a href="#">Indonesia</a></li>
             <li><a href="#">Latin America</a></li>
         </ul>
   </li>
-  <li><a href="#">Price</a>
+  <li><span class="filter-title">Price</span>
         <ul class="filter-function">
             <li><a href="#">$0-$10</a></li>
             <li><a href="#">$10-$15</a></li>
