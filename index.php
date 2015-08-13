@@ -12,11 +12,11 @@ include('includes/config.php');
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
 	
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    
+
 </head>
 
 <body>
@@ -48,20 +48,7 @@ include('includes/config.php');
                           <input type="text" class="form-control" placeholder="Enter Coffee Name" name="term" id="srch-term">
                             <div class="input-group-btn">
                                  <button class="btn btn-default" type="submit" value="search"><span class="glyphicon glyphicon-search"></span></button>
-                    <?php
-//                    if (empty($_GET['term']) === false){
-//                        $search_results = search_posts($_GET['term']);
-//
-//                        if (empty($search_results)){
-//                            echo 'Your search returned no results.';
-//                            }
-//
-//                            foreach ($search_results as $result){
-//                                echo "<h3>Results:</h3>";
-//                                echo "<h4>{$result['title']}</h4>";
-//                                }
-//                        }
-                		?>
+
                            </div>
                      </div>
                    </form>
@@ -75,51 +62,55 @@ include('includes/config.php');
 
     
     
-<div class="form-group filter">
+<div class="filter">
 
-<label for="filter">Sort By:</label>
-<select class="form-control">
-  <option value="">Brand</option>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
-</select>
-  
-<select class="form-control">
-  <option value="">Type</option>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
-</select>    
- 
-<select class="form-control">
-  <option value="">Flavor</option>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
-</select>   
-
-<select class="form-control">
-  <option value="">Price</option>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
-</select>
-    
-<select class="form-control">
-  <option value="">Popularity</option>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
-</select>    
-
-<button class="btn btn-default filtergo" type="submit">Go</button>
-
+<ul class="filter-function">
+  <li class="current"><a href="#">All</a></li>
+  <li><a href="#">Roaster</a>
+        <ul class="filter-function">
+            <li><a href="#">Stumptown</a></li>
+            <li><a href="#">Caffe Vita</a></li>
+            <li><a href="#">Tullys</a></li>
+            <li><a href="#">Starbucks</a></li>
+            <li><a href="#">Victrola</a></li>
+            <li><a href="#">Fonte</a></li>
+            <li><a href="#">Seattle Coffee Works</a></li>
+            <li><a href="#">Herkimer</a></li>
+        </ul>
+  </li>
+  <li><a href="#">Type</a>
+        <ul class="filter-function">
+            <li><a href="#">Espresso</a></li>
+            <li><a href="#">Drip</a></li>
+            <li><a href="#">Decaf</a></li>
+            <li><a href="#">Blend</a></li>
+            <li><a href="#">Single Origin</a></li>
+        </ul>
+  </li>
+  <li><a href="#">Roast</a>
+        <ul class="filter-function">
+            <li><a href="#">Light</a></li>
+            <li><a href="#">Medium</a></li>
+            <li><a href="#">Dark</a></li>
+        </ul>
+  </li>
+  <li><a href="#">Region</a>
+        <ul class="filter-function">
+            <li><a href="#">Africa</a></li>
+            <li><a href="#">Indonesia</a></li>
+            <li><a href="#">Latin America</a></li>
+        </ul>
+  </li>
+  <li><a href="#">Price</a>
+        <ul class="filter-function">
+            <li><a href="#">$0-$10</a></li>
+            <li><a href="#">$10-$15</a></li>
+            <li><a href="#">$15-$20</a></li>
+            <li><a href="#">$20-</a></li>
+        </ul>
+  </li>
+  <li><a href="#">Trending</a></li>
+</ul>
 
         
 </div>
@@ -130,16 +121,11 @@ include('includes/config.php');
 <section>
 <!--Container for grid-->
 <div class="container">
-
-<!--Images for groups-->
-	<div class="mainbean">
-
-        
-        <div class="row">
-			<div class="col-md-3">
+<div class="mainbean">
+		<div class="stumptown col-md-3">
                 <div class="overview">
                 
-                <div class="review">
+                <div class="stumptown indonesia trending $10-$15 light single-origin drip">
                     <a href="profile.php"><h3>Indonesia Bies Penantan</h3><h5>by Stumptown</h5></a>
                     <img src="images/shovel.png" alt="shovel" >
                     <p>123</p>
@@ -148,9 +134,8 @@ include('includes/config.php');
                 <hr>
                 <a href="profile.php"><img src="images/indonesia-sulawesi.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
-			</div>
-			
-            <div class="col-md-3">
+			</div>    
+          <div class="herkimer light africa trending $20- single-origin drip col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -163,8 +148,7 @@ include('includes/config.php');
 				<a href="profile.php"><img src="images/kenya-ngunguru.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
-			
-            <div class="col-md-3">
+            <div class="caffe-vita medium africa $20- single-origin drip col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -178,8 +162,7 @@ include('includes/config.php');
 				<a href="profile.php"><img src="images/kenya-kiamabara.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
-			
-            <div class="col-md-3">
+            <div class="fonte dark drip blend $10-$15 col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -193,11 +176,7 @@ include('includes/config.php');
 				<a href="profile.php"><img src="images/french-roast.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
-			
-		</div> <!--End container for Row-->
-        
-        <div class="row">
-			<div class="col-md-3">
+			<div class="seattle-coffee-works trending latin-america $10-$15 single-origin medium drip espresso col-md-3">
                 <div class="overview">
                 
                 <div class="review">
@@ -211,7 +190,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="col-md-3">
+            <div class="starbucks $0-$10 medium drip blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -225,7 +204,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="col-md-3">
+            <div class="tullys dark drip $0-$10 blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -240,7 +219,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="col-md-3">
+            <div class="victrola light africa drip espresso $10-$15 single-origin col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -254,11 +233,7 @@ include('includes/config.php');
 				<a href="profile.php"><img src="images/ethiopia-sidamo.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
-			
-		</div> <!--End container for Row-->
-        
-        <div class="row">
-			<div class="col-md-3">
+		<div class="stumptown medium blend drip $15-$20 espresso col-md-3">
                 <div class="overview">
                 
                 <div class="review">
@@ -272,7 +247,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="col-md-3">
+            <div class="seattle-coffee-works africa $10-$15 single-origin drip light col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -286,7 +261,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="col-md-3">
+            <div class="starbucks $0-$10 dark blend espresso col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -301,7 +276,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="col-md-3">
+            <div class="starbucks $0-$10 dark blend drip col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -316,10 +291,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-		</div> <!--End container for Row-->
-        
-           <div class="row">
-			<div class="col-md-3">
+			<div class="fonte blend col-md-3">
                 <div class="overview">
                 
                 <div class="review">
@@ -333,7 +305,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="col-md-3">
+            <div class="victrola blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -347,7 +319,7 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="col-md-3">
+            <div class="starbucks $0-$10 dark espresso blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
@@ -362,11 +334,11 @@ include('includes/config.php');
                 </div>
 			</div>
 			
-            <div class="col-md-3">
+            <div class="starbucks trending $0-$10 dark espresso blend col-md-3">
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Cafè Estima Blend</h3><h5>by Starbucks</h5></a>
+                <a href="profile.php"><h3>Cafa Estima Blend</h3><h5>by Starbucks</h5></a>
                 <img src="images/shovel.png" alt="shovel" >
                 <p>123</p>
                 </div>
@@ -375,12 +347,8 @@ include('includes/config.php');
                 <hr>
                 <a href="profile.php"><img src="images/cafe-estima.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
-			</div>
-			
-		</div> <!--End container for Row-->
-
-        
-	</div> <!--End container for images-->
+			</div>           
+</div> <!--End mainbean-->
 </div> <!--End container-->
 
 </section>
@@ -401,7 +369,31 @@ include('includes/config.php');
     <div class="col-md-4"><p>Webdesign by Kangaroo</p></div>
 
 </footer>
+    <script>
+        $(document).ready(function() {
+            $('ul.filter-function a').click(function() {
+              $(this).css('outline','none');
+              $('ul.filter-function .current').removeClass('current');
+              $(this).parent().addClass('current');
 
+              var filterVal = $(this).text().toLowerCase().replace(' ','-');
+
+              if(filterVal == 'all') {
+                $('div.mainbean div.col-md-3.hidden').fadeIn('slow').removeClass('hidden');
+              } else {
+                $('div.mainbean div.col-md-3').each(function() {
+                  if(!$(this).hasClass(filterVal)) {
+                    $(this).fadeOut('normal').addClass('hidden');
+                  } else {
+                    $(this).fadeIn('slow').removeClass('hidden');
+                  }
+                });
+              }
+
+              return false;
+            });
+          });
+    </script>
 </body>
 </html>
 
