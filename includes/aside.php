@@ -2,13 +2,13 @@
 <div id="right-sidebar" class="sidebar">
     <aside class="inner-aside">
     		<h2>LATEST Bean!</h2>
-            <img src="img/grains-coffee1.jpg" class="aside-box" alt="user-image" >
+            <img src="images/grains-coffee1.jpg" class="aside-box" alt="user-image" >
 
 	</aside>
     
     <aside class="inner-aside">
         <h2>POPULAR Bean!</h2>
-        <img src="img/grains-coffee2.jpg" class="aside-box" alt="user-image" >
+        <img src="images/grains-coffee2.jpg" class="aside-box" alt="user-image" >
       
     </aside>
     
