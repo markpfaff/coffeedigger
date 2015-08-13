@@ -38,26 +38,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #f5c55d;
 }
-.filter {
-    background-color: #6f372e;
-    height: 60px;
-    padding-left: 5%;
-    padding-top: 13px;
-}
-.filter label {
-    color: white;
-    margin-left: 3%;
-}
-.filter select {
-    margin-left: 2%;
-}
-.filtergo {
-    margin-left: 3%;
-}
-.filter .form-control {
-    display: inline;
-    width: 12%;
-}
+
 .mainbean {
     margin: 0 auto;
     width: 85%;
@@ -384,4 +365,144 @@ label.newsletter-1 {
 }
 a {
     text-decoration: none;
+}
+
+
+/*Filter*/
+
+.filter {
+    background-color: #6f372e;
+    height: 60px;
+    padding-left: 5%;
+    padding-top: 13px;
+}
+
+
+ul.filter-function {  
+    list-style: none; 
+    margin: 0 auto; 
+    width: 100%;
+    padding:10px;
+
+}
+
+ul.filter-function,
+ul.filter-function li { 
+    z-index:999;   
+    background-color: #6f372e;
+    
+}
+
+ul.filter-function li { 
+    float: left;
+    line-height: 16px;
+    margin-right: 10px;
+    padding-right: 10px;
+    }
+
+ul.filter-function li:last-child { 
+      border-right: none; 
+      margin-right: 0; 
+      padding-right: 0; 
+    }
+
+ul.filter-function li.current a, 
+ul.filter-function a:hover { 
+      text-decoration: underline; 
+    }
+
+ul.filter-function li.current a { 
+      font-weight: bold; 
+    }
+
+
+ul.filter-function li {
+    display: block;
+    float: left;
+    position:relative;
+    font-size: 1.4em;
+}
+
+ul.filter-function li a {
+    display: block;
+    white-space: nowrap;
+    line-height:22px;
+    width:125px;
+    color: #FFF2DF;
+
+} 
+
+ul.filter-function li ul {
+    display:none;
+    width:200px;
+    position:absolute;
+    left:0;
+    top:22px;
+}
+
+ul.filter-function li ul li {
+    float: none;
+    font-size: 1em;
+}
+
+ul.filter-function li:hover > ul {
+    display:block;
+}
+
+ul.filter-function li ul li a {
+  background: #6f372e;
+}
+
+ul.filter-function li ul li a:hover {
+    background-color: #F5C55D;
+}
+
+ul.filter-function li:hover ul {
+    display: block;
+    position: absolute;
+    left:0px;
+}    
+    
+ul.mainbean { 
+    float: left; 
+    list-style: none; 
+    margin-left: 0; 
+    width: 100%;
+    }
+
+ul.mainbean div { 
+    float: left; 
+    margin: 0 10px 10px 0; 
+    padding: 5px;
+    background-color: #F5C55D;
+    }
+
+ul.mainbean a { 
+      display: block; 
+      width: 100%; 
+    }
+ul.mainbean a:hover { 
+      text-decoration: none; 
+    }
+
+ul.mainbean img { 
+      display: block; 
+      padding-bottom: 5px; 
+      width:100%; 
+    }
+
+
+/*.filter label {
+    color: white;
+    margin-left: 3%;
+}
+.filter select {
+    margin-left: 2%;
+}
+.filtergo {
+    margin-left: 3%;
+}
+.filter .form-control {
+    display: inline;
+    width: 12%;*/
 }
