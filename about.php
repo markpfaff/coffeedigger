@@ -24,7 +24,7 @@ $title = 'Coffeedigger | About';
 				  
 				 <div class="about-info">
 					<div class="about-headings">Our Mission</div>
-						<p>COffeedigger's mission is to provide a more detail oriented convenient search option for coffee. Our site will allow users to not just search for coffee, it will allow users to filter their searches as well gibing them more in depth seaching capabilities.</p>
+						<p>Coffeedigger's mission is to provide a more detail oriented convenient search option for coffee. Our site will allow users to not just search for coffee, it will allow users to filter their searches as well gibing them more in depth seaching capabilities.</p>
 
 					<div class="about-headings">The Team</div>
 					<p>The website was built by a webteam of 6 skilled individuals that all had their own skills to contribute to the building of the website.  These are the individuals who worked on building the site.</p>
@@ -56,5 +56,27 @@ $title = 'Coffeedigger | About';
 </section>
 
 <?php
+
+function search_posts($term){
+	$keywords = preg_split('#\s+#', mysql_real_escape_string($term));
+	
+	/*print_r($keywords);*/	
+	
+	$title_where = "`name` LIKE '%" . implode("%' OR `post_title` LIKE '%", $keywords) . "%'";
+	
+	$sql = "SELECT `name` AS `title` FROM `coffee` WHERE {$title_where}";
+	
+	$result = mysql_query($sql);
+	
+	$results = array();
+	
+	while (($row = mysql_fetch_Assoc($result)) !== false){
+	$results[] = $row;	
+	}
+	
+	return $results;
+	
+}
+?>
 include('includes/footer.php');
 ?>

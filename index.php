@@ -64,10 +64,10 @@ $title = 'Coffeedigger | Home';
 <!--Container for grid-->
 <div class="container">
 <div class="mainbean">
-		<div class="stumptown col-md-3">
+		<div class="stumptown indonesia trending $10-$15 light single-origin drip col-md-3">
                 <div class="overview">
                 
-                <div class="stumptown indonesia trending $10-$15 light single-origin drip">
+                <div class="review">
                     <a href="profile.php"><h3>Indonesia Bies Penantan</h3><h5>by Stumptown</h5></a>
                     <img src="images/shovel.png" alt="shovel" >
                     <p>123</p>
@@ -296,5 +296,27 @@ $title = 'Coffeedigger | Home';
 </section>
 
 <?php
+
+function search_posts($term){
+	$keywords = preg_split('#\s+#', mysql_real_escape_string($term));
+	
+	/*print_r($keywords);*/	
+	
+	$title_where = "`name` LIKE '%" . implode("%' OR `post_title` LIKE '%", $keywords) . "%'";
+	
+	$sql = "SELECT `name` AS `title` FROM `coffee` WHERE {$title_where}";
+	
+	$result = mysql_query($sql);
+	
+	$results = array();
+	
+	while (($row = mysql_fetch_Assoc($result)) !== false){
+	$results[] = $row;	
+	}
+	
+	return $results;
+	
+}
+?>
 include('includes/footer.php');
 ?>
