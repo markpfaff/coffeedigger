@@ -165,7 +165,9 @@ ul.about-lists li {
 }
 .contact h1 {
     color: #ffffff;
-    padding-top: 10px;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
 }
 .contact-form {
     margin-top: 30px;
@@ -185,13 +187,13 @@ ul.about-lists li {
 .contact-submit {
     background-color: #6f372e;
     background-image: none;
-    border: medium none;
+    border:none;
     color: #ffffff;
 }
 .contact-submit:hover {
     background-color: #f5c55d !important;
     background-image: none !important;
-    border: medium none;
+    border: none;
 }
 .thankyou {
     margin: -20px 0 30px;
@@ -203,7 +205,7 @@ ul.about-lists li {
 }
 #middle {
     float: left;
-    margin: 0 5px 5px;
+    margin: 0 5px 5px 5px;
     padding: 5px 15px;
     width: 545px;
 }
@@ -233,6 +235,7 @@ hr.profile {
     border-width: 0 0 1px;
     height: 0;
     width: 100%;
+    border-bottom: 1px solid rgb(111, 55, 46);  
 }
 .profile-overview h3 {
     color: #6f372e;
@@ -504,5 +507,94 @@ ul.mainbean img {
 }
 .filter .form-control {
     display: inline;
-    width: 12%;*/
+    width: 12%;
+}*/
+@media (max-width: 991px) {
+	
+footer {
+	text-align:center;
+}
+	
+footer p {
+    font-size:1.5em ;
+    color:white;
+      line-height: 50px;
+}
+
+
+.social,
+.copy {
+    padding-top: 0;
+    padding-left: 0;
+	
+}
+
+
+
+
+nav {
+
+margin:0 auto;
+
+}
+
+.logo a img {
+	width:168px;
+}
+
+header {
+	height:auto;
+	margin-bottom:20px;
+}
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+nav {
+	float:right;	    	
+	margin-top:-20px;
+	
+}
+
+nav ul {
+	text-align:center;
+}
+
+
+.search {
+	padding-left:-50px;
+	height:40px;
+	position:relative;
+	top:-85px;
+	
+}
+
+.about {
+	height:5px;
+	z-index:100;
+}
+
+
+.logo a img {
+	width:160px;
+	float:left;
+}
+
+.search {
+	float:right;
+	width:200px;
+	margin-top:50px;
+
+}
+
+.container {
+	margin-bottom:-65px;
+}
+
+
+
 }
