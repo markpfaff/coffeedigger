@@ -1,119 +1,61 @@
 <?php
 //coffeedigger home page
-include('includes/config.php');
+include('includes/header.php');
+$title = 'Coffeedigger | Home';
 ?>
-<!DOCTYPE html>
-<html>
+ 
+    <div class="filter">
 
-<head>
-	<title>CoffeeDigger Main Page</title>
-	
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
-	
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-
-</head>
-
-<body>
-<!--header -->
-<header>
-
-<div class="container">
-<div class="col-md-4">
-<nav>
-<ul>
-	<li><a href="about.php">About</a></li>
-	<li><a href="contact.php">Contact</a></li>
-</ul>
-</nav>
-</div>    
-    
-<div class="logo col-md-4">
-    
-        <a href="index.php"><img class="icon" alt="logo" src="images/logo.png" title="link back to main page"></a>
-</div>
-
-
-<div class="col-md-4">
-
-<div class="from-group">
-
-    <form class="navbar-form searchbox" action="search.php" role="search">
-                     <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Enter Coffee Name" name="term" id="srch-term">
-                            <div class="input-group-btn">
-                                 <button class="btn btn-default" type="submit" value="search"><span class="glyphicon glyphicon-search"></span></button>
-
-                           </div>
-                     </div>
-                   </form>
-        
-</div>                   
-</div>    
-
-</div>    
-</header>
-
-
-    
-    
-<div class="filter">
-
-<ul class="filter-function">
-  <li class="current"><a href="#">All</a></li>
-  <li><span class="filter-title">Roaster</span>
-        <ul class="filter-function">
-            <li><a href="#">Stumptown</a></li>
-            <li><a href="#">Caffe Vita</a></li>
-            <li><a href="#">Tullys</a></li>
-            <li><a href="#">Starbucks</a></li>
-            <li><a href="#">Victrola</a></li>
-            <li><a href="#">Fonte</a></li>
-            <li><a href="#">Seattle Coffee Works</a></li>
-            <li><a href="#">Herkimer</a></li>
-        </ul>
-  </li>
-  <li><span class="filter-title">Type</span>
-        <ul class="filter-function">
-            <li><a href="#">Espresso</a></li>
-            <li><a href="#">Drip</a></li>
-            <li><a href="#">Decaf</a></li>
-            <li><a href="#">Blend</a></li>
-            <li><a href="#">Single Origin</a></li>
-        </ul>
-  </li>
-  <li><span class="filter-title">Roast</span>
-        <ul class="filter-function">
-            <li><a href="#">Light</a></li>
-            <li><a href="#">Medium</a></li>
-            <li><a href="#">Dark</a></li>
-        </ul>
-  </li>
-  <li><span class="filter-title">Region</span>
-        <ul class="filter-function">
-            <li><a href="#">Africa</a></li>
-            <li><a href="#">Indonesia</a></li>
-            <li><a href="#">Latin America</a></li>
-        </ul>
-  </li>
-  <li><span class="filter-title">Price</span>
-        <ul class="filter-function">
-            <li><a href="#">$0-$10</a></li>
-            <li><a href="#">$10-$15</a></li>
-            <li><a href="#">$15-$20</a></li>
-            <li><a href="#">$20-</a></li>
-        </ul>
-  </li>
-  <li><a href="#">Trending</a></li>
-</ul>
+    <ul class="filter-function">
+      <li class="current"><a href="#">All</a></li>
+      <li><span class="filter-title">Roaster</span>
+            <ul class="filter-function">
+                <li><a href="#">Stumptown</a></li>
+                <li><a href="#">Caffe Vita</a></li>
+                <li><a href="#">Tullys</a></li>
+                <li><a href="#">Starbucks</a></li>
+                <li><a href="#">Victrola</a></li>
+                <li><a href="#">Fonte</a></li>
+                <li><a href="#">Seattle Coffee Works</a></li>
+                <li><a href="#">Herkimer</a></li>
+            </ul>
+      </li>
+      <li><span class="filter-title">Type</span>
+            <ul class="filter-function">
+                <li><a href="#">Espresso</a></li>
+                <li><a href="#">Drip</a></li>
+                <li><a href="#">Decaf</a></li>
+                <li><a href="#">Blend</a></li>
+                <li><a href="#">Single Origin</a></li>
+            </ul>
+      </li>
+      <li><span class="filter-title">Roast</span>
+            <ul class="filter-function">
+                <li><a href="#">Light</a></li>
+                <li><a href="#">Medium</a></li>
+                <li><a href="#">Dark</a></li>
+            </ul>
+      </li>
+      <li><span class="filter-title">Region</span>
+            <ul class="filter-function">
+                <li><a href="#">Africa</a></li>
+                <li><a href="#">Indonesia</a></li>
+                <li><a href="#">Latin America</a></li>
+            </ul>
+      </li>
+      <li><span class="filter-title">Price</span>
+            <ul class="filter-function">
+                <li><a href="#">$0-$10</a></li>
+                <li><a href="#">$10-$15</a></li>
+                <li><a href="#">$15-$20</a></li>
+                <li><a href="#">$20-</a></li>
+            </ul>
+      </li>
+      <li><a href="#">Trending</a></li>
+    </ul>
 
         
-</div>
+</div><!--end div class filter -->
 
 
 
@@ -353,47 +295,6 @@ include('includes/config.php');
 
 </section>
 
-<!--footer -->
-<footer class="foooter">
-<div class="container">
-    <div class="col-md-4 copy"><p>Copyright &copy;2015</p></div> 
-    
-        <div class="col-md-4 social"> 
-
-<a href="#" class="btn btn-social-icon btn-instagram"> <i class="fa fa-instagram"></i></a>
-
-<a href="#" class="btn btn-social-icon btn-facebook"> <i class="fa fa-facebook"></i></a>
-
-</div>
-    
-    <div class="col-md-4"><p>Webdesign by Kangaroo</p></div>
-
-</footer>
-    <script>
-        $(document).ready(function() {
-            $('ul.filter-function a').click(function() {
-              $(this).css('outline','none');
-              $('ul.filter-function .current').removeClass('current');
-              $(this).parent().addClass('current');
-
-              var filterVal = $(this).text().toLowerCase().replace(' ','-');
-
-              if(filterVal == 'all') {
-                $('div.mainbean div.col-md-3.hidden').fadeIn('slow').removeClass('hidden');
-              } else {
-                $('div.mainbean div.col-md-3').each(function() {
-                  if(!$(this).hasClass(filterVal)) {
-                    $(this).fadeOut('normal').addClass('hidden');
-                  } else {
-                    $(this).fadeIn('slow').removeClass('hidden');
-                  }
-                });
-              }
-
-              return false;
-            });
-          });
-    </script>
-</body>
-</html>
-
+<?php
+include('includes/footer.php');
+?>

@@ -1,63 +1,8 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<title>CoffeeDigger Main Page</title>
-	
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-
-
-   
-</head>
-
-<body>
-<!--header -->
-<header>
-
-<div class="container">
-<div class="col-md-4">
-<nav>
-<ul>
-	<li><a href="about.php">About</a></li>
-	<li><a href="contact.php">Contact</a></li>
-</ul>
-</nav>
-</div>    
-    
-<div class="logo col-md-4">
-    
-        <a href="index.php"><img class="icon" alt="logo" src="images/logo.png" title="link back to main page"></a>
-</div>
-
-
-<div class="col-md-4">
-
-<div class="from-group">
-
-<form class="navbar-form searchbox" role="search">
-                     <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-                            <div class="input-group-btn">
-                                 <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                           </div>
-                     </div>
-                   </form>
-                   
-       
-
-        
-</div>                   
-</div>    
-
-</div>    
-</header>
+<?php
+//coffeedigger contact page
+include('includes/header.php');
+$title = 'Coffeedigger | Contact';
+?>
 
 <section class="text-center contact">
 
@@ -121,24 +66,7 @@ echo "<h4>Your message has been sucessfuly submitted. We will try to get back to
    
 </div> 
 
-
-<!--footer -->
-<footer class="foooter">
-<div class="container">
-    <div class="col-md-4 copy"><p>Copyright &copy;2015</p></div> 
-    
-        <div class="col-md-4 social"> 
-
-<a href="#" class="btn btn-social-icon btn-instagram"> <i class="fa fa-instagram"></i></a>
-
-<a href="#" class="btn btn-social-icon btn-facebook"> <i class="fa fa-facebook"></i></a>
-
-</div>
-    
-    <div class="col-md-4"><p>Webdesign by Kangaroo</p></div>
-
-</footer>
-
-</body>
-</html>
+<?php
+include('includes/footer.php');
+?>
 
