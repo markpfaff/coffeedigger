@@ -68,9 +68,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
                 
                 <div class="review">
-                    <a href="profile.php"><h3>Indonesia Bies Penantan</h3><h5>by Stumptown</h5></a>
-                    <img src="images/shovel.png" alt="shovel" >
-                    <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Indonesia Bies Penantan</h3><h5>by Stumptown</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                     
                 <hr>
