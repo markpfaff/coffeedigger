@@ -1,27 +1,8 @@
 <?php
 //coffeedigger search page
-include('includes/config.php');
+include('includes/header.php');
+$title = 'Coffeedigger | Search';
 ?>
-<!DOCTYPE html>
-<html>
-
-<head>
-	<title>CoffeeDigger Main Page</title>
-	
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    
-</head>
-
-<body>
-<!--header -->
-<header>
 
 <div class="container">
 <div class="col-md-4">
@@ -80,23 +61,29 @@ include('includes/config.php');
     ?>
 </section>
 
-<!--footer -->
-<footer class="foooter">
-<div class="container">
-    <div class="col-md-4 copy"><p>Copyright &copy;2015</p></div> 
-    
-        <div class="col-md-4 social"> 
+<?php
 
-<a href="#" class="btn btn-social-icon btn-instagram"> <i class="fa fa-instagram"></i></a>
+function search_posts($term){
+	$keywords = preg_split('#\s+#', mysql_real_escape_string($term));
+	
+	/*print_r($keywords);*/	
+	
+	$title_where = "`name` LIKE '%" . implode("%' OR `post_title` LIKE '%", $keywords) . "%'";
+	
+	$sql = "SELECT `name` AS `title` FROM `coffee` WHERE {$title_where}";
+	
+	$result = mysql_query($sql);
+	
+	$results = array();
+	
+	while (($row = mysql_fetch_Assoc($result)) !== false){
+	$results[] = $row;	
+	}
+	
+	return $results;
+	
+}
 
-<a href="#" class="btn btn-social-icon btn-facebook"> <i class="fa fa-facebook"></i></a>
-
-</div>
-    
-    <div class="col-md-4"><p>Webdesign by Kangaroo</p></div>
-
-</footer>
-
-</body>
-</html>
+include('includes/footer.php');
+?>
 

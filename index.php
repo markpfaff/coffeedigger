@@ -317,6 +317,6 @@ function search_posts($term){
 	return $results;
 	
 }
-?>
+
 include('includes/footer.php');
 ?>
