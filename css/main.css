@@ -71,6 +71,7 @@ footer p {
 hr {
     border: 1px solid #6f372e;
     width: 75%;
+    clear:both;
 }
 .overview h3, .review p {
     display: inline;
@@ -90,11 +91,12 @@ hr {
     padding-top: 15px;
 }
 .review img {
-    display: inline;
+    padding-left: 11px;
 }
-.review img {
+
+/*.review img {
     margin-left: 3.8em;
-}
+}*/
 
 .profile-title {
     float:left;
@@ -412,16 +414,13 @@ a {
 ul.filter-function {  
     list-style: none; 
     margin: 0 auto; 
-    width: 100%;
     padding:10px;
     margin-left:5%;
 }
 
 ul.filter-function,
 ul.filter-function li { 
-    z-index:999;   
-    background-color: #6f372e;
-    
+    z-index:999;       
 }
 
 ul.filter-function li { 

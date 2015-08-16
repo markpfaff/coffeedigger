@@ -85,9 +85,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Kenya Ngunguru</h3><h5>by Herkimer</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Kenya Ngunguru</h3><h5>by Herkimer</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>    
                 </div>
                 
                 <hr>
@@ -98,9 +102,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Kenya Kiamabara</h3><h5>by Caffe Vita</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Kenya Kiamabara</h3><h5>by Caffe Vita</h5></a>
+                     </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>    
                 </div>
                     
                     
@@ -112,9 +120,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>French Roast</h3><H5>by Fonte Coffee Roasters</H5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>French Roast</h3><H5>by Fonte Coffee Roasters</H5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>    
                 </div>
                     
                     
@@ -126,9 +138,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
                 
                 <div class="review">
-                <a href="profile.php"><h3>Brazil Carmo de Minas</h3><h5>by Seattle Coffee Works</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Brazil Carmo de Minas</h3><h5>by Seattle Coffee Works</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                     
                 <hr>
@@ -140,9 +156,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Pike Place Blend</h3><h5>by Starbucks</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Pike Place Blend</h3><h5>by Starbucks</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                 
                 <hr>
@@ -154,9 +174,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>House Blend</h3><h5>by Tully's</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>House Blend</h3><h5>by Tully's</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                     
                     
@@ -169,9 +193,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Ethiopia Sidamo</h3><h5>by Victrola Coffee Roasters</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Ethiopia Sidamo</h3><h5>by Victrola Coffee Roasters</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>    
                 </div>
                     
                     
@@ -183,9 +211,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
                 
                 <div class="review">
-                <a href="profile.php"><h3>Holler Mountain Blend</h3><H5>by Stumptown</H5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Holler Mountain Blend</h3><H5>by Stumptown</H5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                     
                 <hr>
@@ -197,9 +229,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Kenya Nyeri Mutwewathi</h3>by Seattle Coffee Works</a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Kenya Nyeri Mutwewathi</h3>by Seattle Coffee Works</a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>    
                 </div>
                 
                 <hr>
@@ -211,9 +247,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Veranda Blend</h3><H5>by Starbucks</H5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Veranda Blend</h3><H5>by Starbucks</H5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>                      
                 </div>
                     
                     
@@ -226,9 +266,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>House Blend</h3><h5>by Starbucks</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>House Blend</h3><h5>by Starbucks</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                     
                     
@@ -241,9 +285,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
                 
                 <div class="review">
-                <a href="profile.php"><h3>Portofino Blend</h3><H5>by Fonte Coffee Roasters</H5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Portofino Blend</h3><H5>by Fonte Coffee Roasters</H5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                     
                 <hr>
@@ -255,9 +303,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Holiday Blend</h3><h5>by Victrola Coffee</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Holiday Blend</h3><h5>by Victrola Coffee</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                 
                 <hr>
@@ -269,9 +321,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Perugia Blend</h3><h5>by Starbucks</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Perugia Blend</h3><h5>by Starbucks</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                     
                     
@@ -284,9 +340,13 @@ $title = 'Coffeedigger | Home';
                 <div class="overview">
 				
                 <div class="review">
-                <a href="profile.php"><h3>Cafa Estima Blend</h3><h5>by Starbucks</h5></a>
-                <img src="images/shovel.png" alt="shovel" >
-                <p>123</p>
+                    <div class="profile-title">
+                        <a href="profile.php"><h3>Cafa Estima Blend</h3><h5>by Starbucks</h5></a>
+                    </div>
+                    <div class="dig-count">
+                        <img src="images/shovel.png" alt="shovel" >
+                        <p>123</p>
+                    </div>
                 </div>
                     
                     
