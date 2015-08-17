@@ -4,44 +4,6 @@ include('includes/header.php');
 $title = 'Coffeedigger | Search';
 ?>
 
-<div class="container">
-<div class="col-md-4">
-<nav>
-<ul>
-	<li><a href="about.php">About</a></li>
-	<li><a href="contact.php">Contact</a></li>
-</ul>
-</nav>
-</div>    
-    
-<div class="logo col-md-4">
-    
-        <a href="index.php"><img class="icon" alt="logo" src="images/logo.png" title="link back to main page"></a>
-</div>
-
-
-<div class="col-md-4">
-
-<div class="from-group">
-
-    <form class="navbar-form searchbox" action="search.php" role="search">
-                     <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Search" name="coffee" id="srch-term">
-                            <div class="input-group-btn">
-                                 <button class="btn btn-default" type="submit" value="search"><span class="glyphicon glyphicon-search"></span></button>
-
-                           </div>
-                     </div>
-                   </form>
-        
-</div>                   
-</div>    
-
-</div>    
-</header>
-
-
-
 <!--section -->
 <section>
     <?php

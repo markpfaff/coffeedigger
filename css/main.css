@@ -90,9 +90,7 @@ hr {
     margin: 0 0 -15px 25px;
     padding-top: 15px;
 }
-.review img {
-    padding-left: 11px;
-}
+
 
 /*.review img {
     margin-left: 3.8em;
@@ -105,6 +103,12 @@ hr {
 .dig-count {
     float:right;
     width:30%;   
+}
+
+.dig-count img {
+    margin: 0px auto;
+    float: none;
+    display: block;
 }
 
 .fa-facebook, .fa-instagram {

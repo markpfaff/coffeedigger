@@ -2,7 +2,16 @@
 //coffeedigger home page
 include('includes/header.php');
 $title = 'Coffeedigger | Home';
+include('includes/config.php');
+
+//while($mysqldigs = mysql_fetch_assoc($sql)){ 
+//    $digs = $mysqldigs['digs'];
+
+
+
+
 ?>
+
  
     <div class="filter">
 
@@ -73,7 +82,16 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '2'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?> 
+                            
+                        </p>
                     </div>
                 </div>
                     
@@ -90,7 +108,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '3'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?> 
+                        </p>
                     </div>    
                 </div>
                 
@@ -107,7 +132,14 @@ $title = 'Coffeedigger | Home';
                      </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '5'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?> 
+                        </p>
                     </div>    
                 </div>
                     
@@ -125,7 +157,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '6'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                             
+                        </p>
                     </div>    
                 </div>
                     
@@ -143,7 +182,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '7'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                             
+                        </p>
                     </div>
                 </div>
                     
@@ -161,7 +207,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '8'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                                  
+                        </p>
                     </div>
                 </div>
                 
@@ -179,7 +232,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '9'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                                 
+                        </p>
                     </div>
                 </div>
                     
@@ -198,7 +258,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '10'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                                    
+                        </p>
                     </div>    
                 </div>
                     
@@ -216,7 +283,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '12'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                               
+                        </p>
                     </div>
                 </div>
                     
@@ -234,7 +308,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '13'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                           
+                        </p>
                     </div>    
                 </div>
                 
@@ -252,7 +333,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '14'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                               
+                        </p>
                     </div>                      
                 </div>
                     
@@ -271,7 +359,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                         <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '15'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                              
+                        </p>
                     </div>
                 </div>
                     
@@ -290,7 +385,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                         <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '16'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                                
+                        </p>
                     </div>
                 </div>
                     
@@ -308,7 +410,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                         <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '17'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                                   
+                        </p>
                     </div>
                 </div>
                 
@@ -326,7 +435,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                         <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '18'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                                  
+                        </p>
                     </div>
                 </div>
                     
@@ -345,7 +461,14 @@ $title = 'Coffeedigger | Home';
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>123</p>
+                        <p>
+                         <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '19'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                              
+                        </p>
                     </div>
                 </div>
                     
@@ -360,27 +483,5 @@ $title = 'Coffeedigger | Home';
 </section>
 
 <?php
-
-function search_posts($term){
-	$keywords = preg_split('#\s+#', mysql_real_escape_string($term));
-	
-	/*print_r($keywords);*/	
-	
-	$title_where = "`name` LIKE '%" . implode("%' OR `post_title` LIKE '%", $keywords) . "%'";
-	
-	$sql = "SELECT `name` AS `title` FROM `coffee` WHERE {$title_where}";
-	
-	$result = mysql_query($sql);
-	
-	$results = array();
-	
-	while (($row = mysql_fetch_Assoc($result)) !== false){
-	$results[] = $row;	
-	}
-	
-	return $results;
-	
-}
-
 include('includes/footer.php');
 ?>
