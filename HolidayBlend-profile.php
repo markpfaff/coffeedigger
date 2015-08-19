@@ -9,7 +9,7 @@ $title = 'Coffeedigger | Profile ';
 
     <!--<div class="col-md-4 "><h1><< Back to Dig</h1></div>-->
     <div class="col-md-4 "><a href="index.php"><h1><< Back to Dig</h1></a></div>
-    <div class="col-md-4 copy"><h2>Coffee </h2></div>
+<!--    <div class="col-md-4 copy"><h2>Coffee </h2></div>-->
         
 </div>
 
@@ -23,7 +23,7 @@ $title = 'Coffeedigger | Profile ';
 
 <!--BEGINS CONTENT-LEFT-->
     <section id="content">
-            <img src="images/profiles/HolidayBlend.png" class="content" alt="profile-image-coffee1" >
+            <img src="images/holiday-blend.png" class="content" alt="profile-image-coffee1" >
                       
             <div class="profile-overview">
                     <div class="profile-review">

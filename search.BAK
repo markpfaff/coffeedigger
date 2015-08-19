@@ -19,7 +19,7 @@ $title = 'Coffeedigger | Search';
 function search_posts($term){
       
     try {
-    $conn = new PDO('mysql:host=xxxx;dbname=xxxx', 'xxxx', 'xxxx');
+        $conn = new PDO('mysql:host=xxxx;dbname=xxxx', 'xxxx', 'xxxx');
         $stmt = $conn->prepare("SELECT * FROM coffee WHERE MATCH (name,roaster,roastlevel,flavor,description) AGAINST ('$term') ");
         $stmt->execute(array('search' => "%$term%"));
 
