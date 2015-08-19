@@ -22,7 +22,7 @@ $title = 'Coffeedigger | Profile ';
 
 <!--BEGINS CONTENT-LEFT-->
     <section id="content">
-            <img src="images/profiles/portofino-blend.jpg" class="content" alt="profile-image-coffee1" >
+            <img src="images/portofino-blend.jpg" class="content" alt="profile-image-coffee1" >
                       
             <div class="profile-overview">
                     <div class="profile-review">
