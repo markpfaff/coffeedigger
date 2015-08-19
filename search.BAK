@@ -1,0 +1,45 @@
+<?php
+//coffeedigger search page
+include('includes/header.php');
+$title = 'Coffeedigger | Search';
+?>
+
+<!--section -->
+<section>
+    <?php
+    echo "<h3>Results:</h3>";
+    if (empty($_GET['term']) === false){
+        $search_results = search_posts($_GET['term']);
+
+        }
+    ?>
+</section>
+
+<?php
+function search_posts($term){
+      
+    try {
+    $conn = new PDO('mysql:host=xxxx;dbname=xxxx', 'xxxx', 'xxxx');
+        $stmt = $conn->prepare("SELECT * FROM coffee WHERE MATCH (name,roaster,roastlevel,flavor,description) AGAINST ('$term') ");
+        $stmt->execute(array('search' => "%$term%"));
+
+        $result = $stmt->fetchAll();
+
+        if ( count($result) ) {
+            foreach($result as $row) {
+                $string = preg_replace('/\s+/', '', $row['name']);
+                echo "<a href='{$string}-profile.php'> <h4>{$row['name']}</h4></a>";
+            }
+        }else{
+        echo "No results found.";
+        }
+    } 
+        catch(PDOException $e) {
+            echo 'ERROR: ' . $e->getMessage();
+        }
+}
+
+include('includes/footer.php');
+
+?>
+
