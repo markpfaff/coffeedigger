@@ -51,9 +51,9 @@ nav ul li a:hover {
 footer {
     background-color: #6f372e;
     clear: both;
-    height: 100px;
     margin-top: 30px;
 }
+
 footer p {
     color: white;
     display: inline;
@@ -187,28 +187,45 @@ ul.about-lists li {
 /*End About Page Styles*/
 
 /*Contact Page Styles*/
+
 .contact {
     background-color: #6f372e;
     height: 60px;
+	-webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+     transform-style: preserve-3d;
 }
+
 .contact h1 {
     color: #ffffff;
-    position: relative;
-    top:50%;
-    transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
+
+.contactbody {
+	width:75%;
+	margin:0 auto;
+}
+
+
 .contact-form {
     margin-top: 30px;
-    padding: 0 0 40px 40px;
+    padding: 0 0 40px 60px;
 }
+
+
 .contact-lable {
     color: #6f372e;
     display: block;
 }
+
 .contact-input {
     color: #6f372e;
     font-size: 18px;
 }
+
 .btn-group-lg {
     margin-top: 10px;
 }
@@ -680,6 +697,13 @@ footer p {
 	
 }
 
+aside {
+	display:none;
+}
+
+.contact-form {
+	padding-left:20%;
+}
 
 
 
@@ -723,6 +747,11 @@ nav ul {
 	top:-85px;
 	
 }
+
+.contact-form {
+	padding-left:5%;
+}
+
 
 .about {
 	height:5px;
