@@ -1,4 +1,8 @@
 
+html {
+    min-width: 500px;
+}
+
 h1 {
     color: #fff;
     display: inline;
@@ -68,6 +72,14 @@ footer p {
     height: 310px;
 }
 
+.about-overview {
+    background-color: #f5c55d;
+    margin: 10px 5px;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
 hr {
     border: 1px solid #6f372e;
     width: 75%;
@@ -133,6 +145,7 @@ q {
 }
 blockquote {
     display: inline;
+    border-left:none;
 }
 
 
@@ -212,7 +225,8 @@ ul.about-lists li {
 
 .contact-form {
     margin-top: 30px;
-    padding: 0 0 40px 60px;
+    padding: 0px 0px 40px 20%;
+    width: 50%;
 }
 
 
@@ -427,7 +441,7 @@ a {
 
 .filter {
     background-color: #6f372e;
-    height: 60px;
+    height: 80px;
     padding-left: 5%;
     padding-top: 13px;
 }
@@ -436,7 +450,7 @@ ul.filter-function {
     list-style: none; 
     margin: 0 auto; 
     padding:10px;
-    margin-left:5%;
+    width: 80%;
 }
 
 ul.filter-function,
@@ -471,14 +485,14 @@ ul.filter-function li {
     display: block;
     float: left;
     position:relative;
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 
 ul.filter-function li a,
 .filter-title {
     display: block;
     white-space: nowrap;
-    line-height:22px;
+    line-height: 33px;
     width:125px;
     color: #FFF2DF;
 
@@ -503,6 +517,8 @@ ul.filter-function li:hover > ul {
 
 ul.filter-function li ul li a {
   background: #6f372e;
+  padding: 5px;
+  width: 200px;
 }
 
 ul.filter-function li ul li a:hover {
@@ -677,8 +693,43 @@ ul.mainbean img {
 
 /*End Comment Styles*/
 
+@media (max-width: 1450px) {
+    aside {
+            display:none;
+    }
+
+    .contact-form {
+            padding-left:20%;
+    }
+
+    .index.filter {
+        height: 100px;
+    }
+    
+}
 @media (max-width: 991px) {
+
+nav {
+	float:right;	    	
+	margin-top:-20px;
 	
+}
+
+nav ul {
+    text-align:center;
+    margin: 40px 19%;
+}
+
+
+.search {
+	padding-left:-50px;
+	height:40px;
+	top:-85px;
+        float: right;
+        margin-right: 5%;	
+}
+
+    
 footer {
 	text-align:center;
 }
@@ -697,12 +748,8 @@ footer p {
 	
 }
 
-aside {
-	display:none;
-}
-
-.contact-form {
-	padding-left:20%;
+.overview {
+    height:auto;
 }
 
 
@@ -720,33 +767,27 @@ margin:0 auto;
 header {
 	height:auto;
 	margin-bottom:20px;
+        height: 150px;
 }
 
 
 }
 
+@media (max-width: 600px) {
 
+    ul.filter-function {  
+
+        width: 100%;
+        padding-left:5%;
+    }
+}
 
 @media (max-width: 767px) {
 
-nav {
-	float:right;	    	
-	margin-top:-20px;
-	
-}
-
-nav ul {
-	text-align:center;
-}
-
-
-.search {
-	padding-left:-50px;
-	height:40px;
-	position:relative;
-	top:-85px;
-	
-}
+    
+ul.filter-function li {
+    font-size: 1.4em;
+}    
 
 .contact-form {
 	padding-left:5%;
@@ -777,4 +818,10 @@ nav ul {
 
 
 
+}
+
+@media (max-width: 767px) {
+    .index.filter {
+        height: 130px;
+    }
 }

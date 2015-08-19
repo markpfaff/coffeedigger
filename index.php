@@ -13,7 +13,7 @@ include('includes/config.php');
 ?>
 
  
-    <div class="filter">
+    <div class="index filter">
 
     <ul class="filter-function">
       <li class="current"><a href="#">All</a></li>
