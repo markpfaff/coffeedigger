@@ -78,7 +78,7 @@ include('includes/config.php');
                 
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Indonesia Bies Penantan</h3><h5>by Stumptown</h5></a>
+                        <a href="IndonesiaBiesPenantan-profile.php"><h3>Indonesia Bies Penantan</h3><h5>by Stumptown</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -96,7 +96,7 @@ include('includes/config.php');
                 </div>
                     
                 <hr>
-                <a href="profile.php"><img src="images/indonesia-sulawesi.jpg" class="img-rounded" alt="images for shops" ></a>
+                <a href="IndonesiaBiesPenantan-profile.php"><img src="images/indonesia-sulawesi.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>    
           <div class="herkimer light africa trending $20- single-origin drip col-md-3">
@@ -104,7 +104,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Kenya Ngunguru</h3><h5>by Herkimer</h5></a>
+                        <a href="KenyaNgunguru-profile.php"><h3>Kenya Ngunguru</h3><h5>by Herkimer</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -120,7 +120,7 @@ include('includes/config.php');
                 </div>
                 
                 <hr>
-				<a href="profile.php"><img src="images/kenya-ngunguru.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="KenyaNgunguru-profile.php"><img src="images/kenya-ngunguru.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
             <div class="caffe-vita medium africa $20- single-origin drip col-md-3">
@@ -128,7 +128,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Kenya Kiamabara</h3><h5>by Caffe Vita</h5></a>
+                        <a href="KenyaKiamabara-profile.php"><h3>Kenya Kiamabara</h3><h5>by Caffe Vita</h5></a>
                      </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -145,7 +145,7 @@ include('includes/config.php');
                     
                     
                 <hr>
-				<a href="profile.php"><img src="images/kenya-kiamabara.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="KenyaKiamabara-profile.php"><img src="images/kenya-kiamabara.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
             <div class="fonte dark drip blend $10-$15 col-md-3">
@@ -153,7 +153,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>French Roast</h3><H5>by Fonte Coffee Roasters</H5></a>
+                        <a href="FrenchRoast-profile.php"><h3>French Roast</h3><H5>by Fonte Coffee Roasters</H5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -170,7 +170,7 @@ include('includes/config.php');
                     
                     
                 <hr>
-				<a href="profile.php"><img src="images/french-roast.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="FrenchRoast-profile.php"><img src="images/french-roast.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			<div class="seattle-coffee-works trending latin-america $10-$15 single-origin medium drip espresso col-md-3">
@@ -178,7 +178,7 @@ include('includes/config.php');
                 
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Brazil Carmo de Minas</h3><h5>by Seattle Coffee Works</h5></a>
+                        <a href="BrazilCarmodeMinas-profile.php"><h3>Brazil Carmo de Minas</h3><h5>by Seattle Coffee Works</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -194,7 +194,7 @@ include('includes/config.php');
                 </div>
                     
                 <hr>
-				<a href="profile.php"><img src="images/brazil-carmo-de-minas.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="BrazilCarmodeMinas-profile.php"><img src="images/brazil-carmo-de-minas.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -203,7 +203,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Pike Place Blend</h3><h5>by Starbucks</h5></a>
+                        <a href="PikePlaceBlend-profile.php"><h3>Pike Place Blend</h3><h5>by Starbucks</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -219,7 +219,7 @@ include('includes/config.php');
                 </div>
                 
                 <hr>
-				<a href="profile.php"><img src="images/pike-place.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="PikePlaceBlend-profile.php"><img src="images/pike-place.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -228,7 +228,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>House Blend</h3><h5>by Tully's</h5></a>
+                        <a href="HouseBlend-profile.php"><h3>House Blend</h3><h5>by Tully's</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -245,7 +245,7 @@ include('includes/config.php');
                     
                     
                 <hr>
-				<a href="profile.php"><img src="images/house-blend.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="HouseBlend-profile.php"><img src="images/house-blend.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -254,7 +254,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Ethiopia Sidamo</h3><h5>by Victrola Coffee Roasters</h5></a>
+                        <a href="EthiopiaSidamo-profile.php"><h3>Ethiopia Sidamo</h3><h5>by Victrola Coffee Roasters</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -271,7 +271,7 @@ include('includes/config.php');
                     
                     
                 <hr>
-				<a href="profile.php"><img src="images/ethiopia-sidamo.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="EthiopiaSidamo-profile.php"><img src="images/ethiopia-sidamo.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 		<div class="stumptown medium blend drip $15-$20 espresso col-md-3">
@@ -279,7 +279,7 @@ include('includes/config.php');
                 
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Holler Mountain Blend</h3><H5>by Stumptown</H5></a>
+                        <a href="HollerMountainBlend-profile.php"><h3>Holler Mountain Blend</h3><H5>by Stumptown</H5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -295,7 +295,7 @@ include('includes/config.php');
                 </div>
                     
                 <hr>
-				<a href="profile.php"><img src="images/holler-mountain-blend.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="HollerMountainBlend-profile.php"><img src="images/holler-mountain-blend.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -304,7 +304,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Kenya Nyeri Mutwewathi</h3>by Seattle Coffee Works</a>
+                        <a href="KenyaNyeriMutwewathi-profile.php"><h3>Kenya Nyeri Mutwewathi</h3>by Seattle Coffee Works</a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -320,7 +320,7 @@ include('includes/config.php');
                 </div>
                 
                 <hr>
-				<a href="profile.php"><img src="images/kenya-nyeri-mutwewathi.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="KenyaNyeriMutwewathi-profile.php"><img src="images/kenya-nyeri-mutwewathi.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -329,7 +329,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Veranda Blend</h3><H5>by Starbucks</H5></a>
+                        <a href="VerandaBlend-profile.php"><h3>Veranda Blend</h3><H5>by Starbucks</H5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -346,7 +346,7 @@ include('includes/config.php');
                     
                     
                 <hr>
-				<a href="profile.php"><img src="images/veranda-blend.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="VerandaBlend-profile.php"><img src="images/veranda-blend.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -355,7 +355,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>House Blend</h3><h5>by Starbucks</h5></a>
+                        <a href="HouseBlend-profile.php"><h3>House Blend</h3><h5>by Starbucks</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -372,7 +372,7 @@ include('includes/config.php');
                     
                     
                 <hr>
-				<a href="profile.php"><img src="images/house-blend-starbucks.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="HouseBlend-profile.php"><img src="images/house-blend-starbucks.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -381,7 +381,7 @@ include('includes/config.php');
                 
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Portofino Blend</h3><H5>by Fonte Coffee Roasters</H5></a>
+                        <a href="PortofinoBlend-profile.php"><h3>Portofino Blend</h3><H5>by Fonte Coffee Roasters</H5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -397,7 +397,7 @@ include('includes/config.php');
                 </div>
                     
                 <hr>
-				<a href="profile.php"><img src="images/portofino-blend.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="PortofinoBlend-profile.php"><img src="images/portofino-blend.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -406,7 +406,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Holiday Blend</h3><h5>by Victrola Coffee</h5></a>
+                        <a href="HolidayBlend-profile.php"><h3>Holiday Blend</h3><h5>by Victrola Coffee</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -422,7 +422,7 @@ include('includes/config.php');
                 </div>
                 
                 <hr>
-				<a href="profile.php"><img src="images/holiday-blend.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="HolidayBlend-profile.php"><img src="images/holiday-blend.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -431,7 +431,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Perugia Blend</h3><h5>by Starbucks</h5></a>
+                        <a href="PerugiaBlend-profile.php"><h3>Perugia Blend</h3><h5>by Starbucks</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -448,7 +448,7 @@ include('includes/config.php');
                     
                     
                 <hr>
-				<a href="profile.php"><img src="images/perugia-blend.jpg" class="img-rounded" alt="images for shops" ></a>
+				<a href="PerugiaBlend-profile.php"><img src="images/perugia-blend.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>
 			
@@ -457,7 +457,7 @@ include('includes/config.php');
 				
                 <div class="review">
                     <div class="profile-title">
-                        <a href="profile.php"><h3>Cafa Estima Blend</h3><h5>by Starbucks</h5></a>
+                        <a href="CafeEstimaBlend-profile.php"><h3>Cafe Estima Blend</h3><h5>by Starbucks</h5></a>
                     </div>
                     <div class="dig-count">
                         <img src="images/shovel.png" alt="shovel" >
@@ -474,7 +474,7 @@ include('includes/config.php');
                     
                     
                 <hr>
-                <a href="profile.php"><img src="images/cafe-estima.jpg" class="img-rounded" alt="images for shops" ></a>
+                <a href="CafeEstimaBlend-profile.php"><img src="images/cafe-estima.jpg" class="img-rounded" alt="images for shops" ></a>
                 </div>
 			</div>           
 </div> <!--End mainbean-->
