@@ -30,7 +30,7 @@ $title = 'Coffeedigger | Contact';
 
 
 
-<aside class="col-md-4">
+<aside class="contact col-md-4">
 <?php include 'includes/aside.php' ?>
 </aside>
 

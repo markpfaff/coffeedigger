@@ -694,7 +694,7 @@ ul.mainbean img {
 /*End Comment Styles*/
 
 @media (max-width: 1450px) {
-    aside {
+    aside.contact {
             display:none;
     }
 
