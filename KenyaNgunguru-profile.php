@@ -23,7 +23,7 @@ $title = 'Coffeedigger | Profile ';
 
 <!--BEGINS CONTENT-LEFT-->
     <section id="content">
-            <img src="images/profiles/CafeEstimaBlend.png" class="content" alt="profile-image-coffee1" >
+            <img src="images/profiles/KenyaNgunguru.png" class="content" alt="profile-image-coffee1" >
                       
             <div class="profile-overview">
                     <div class="profile-review">
@@ -33,7 +33,7 @@ $title = 'Coffeedigger | Profile ';
                 <hr class="profile">
                 
                 <div id="icon-coffee-left">
-                	<img src="images/logos/starbucks.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/herkimer-coffee.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -51,7 +51,7 @@ $title = 'Coffeedigger | Profile ';
               <div class="profile-overview">
                             
                 <div id="icon-coffee-left">
-                	<img src="images/logos/healthy-coffee.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/the-coffee-bean.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -68,7 +68,7 @@ $title = 'Coffeedigger | Profile ';
               <div class="profile-overview">
                             
                 <div id="icon-coffee-left">
-                	<img src="images/logos/seattle-coffee-works.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/town-hall-cafe.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -85,7 +85,7 @@ $title = 'Coffeedigger | Profile ';
               <div class="profile-overview">
                             
                 <div id="icon-coffee-left">
-                	<img src="images/logos/cafee-vita.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/cafe-libre.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -112,7 +112,7 @@ $title = 'Coffeedigger | Profile ';
           	<!--COFFEE-->
             <div class="profile-overview">
                     <div class="profile-review">
-                        <h3>Cafe Estima Blend</h3>
+                        <h3>Kenya Ngunguru</h3>
                         <img src="images/shovel.png" alt="shovel" >
                         <p>
                         <?php
@@ -126,12 +126,12 @@ $title = 'Coffeedigger | Profile ';
                  
                 <hr class="profile">
                 <div class="profile-p">
-                    <p><h1 class="profile-h1">Roaster:</h1> Starbucks </p>
-                    <p><h1 class="profile-h1">Type:</h1> Blend </p>
-                    <p><h1 class="profile-h1">Roast:</h1> Dark </p>
-                    <p><h1 class="profile-h1">Region:</h1> Latin America </p>
-                    <p><h1 class="profile-h1">Price:</h1> $23.99</p>
-                    <p><h1 class="profile-h1">Trending:</h1> Cafecito </p>
+                    <p><h1 class="profile-h1">Roaster:</h1> Herkimer </p>
+                    <p><h1 class="profile-h1">Type:</h1> Drip </p>
+                    <p><h1 class="profile-h1">Roast:</h1> Light </p>
+                    <p><h1 class="profile-h1">Region:</h1> Africa </p>
+                    <p><h1 class="profile-h1">Price:</h1> $15.00</p>
+                    <p><h1 class="profile-h1">Trending:</h1> Extra seasonal </p>
                 	</div>
                 </div>
                 <!--COFFEE ENDS-->
@@ -144,10 +144,8 @@ $title = 'Coffeedigger | Profile ';
                     
                 <hr class="profile">
                 <div class="profile-p">
-                    <p>Espresso caffeine, cappuccino white arabica mocha mazagran. Bar, redeye single shot skinny so aged crema. French press chicory, redeye beans coffee affogato aftertaste mazagran. Latte doppio plunger pot milk ristretto viennese milk.</p>
-                    <p>Froth coffee cup irish, medium eu crema crema latte. Americano eu cortado qui medium percolator espresso cappuccino. Variety plunger pot aromatic café au lait, strong siphon cup redeye fair trade a latte. Caramelization macchiato wings, skinny mazagran, kopi-luwak, to go grounds ristretto french press coffee.</p>
-                    
-                    
+                    <p>Seasonal extraction java milk qui beans café au lait. Redeye id beans sugar, cup seasonal cappuccino acerbic wings plunger pot.</p>
+                    <p>Sugar and, froth, mazagran, whipped crema, grounds, crema cultivar coffee skinny plunger pot. Aroma, robust, aged single origin cream aged at medium.</p>
                 </div>
               </div>
               <!--DESCRIPTION ENDS-->

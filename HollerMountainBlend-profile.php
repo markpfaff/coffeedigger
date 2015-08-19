@@ -23,7 +23,7 @@ $title = 'Coffeedigger | Profile ';
 
 <!--BEGINS CONTENT-LEFT-->
     <section id="content">
-            <img src="images/profiles/CafeEstimaBlend.png" class="content" alt="profile-image-coffee1" >
+            <img src="images/profiles/HollerMountainBlend.png" class="content" alt="profile-image-coffee1" >
                       
             <div class="profile-overview">
                     <div class="profile-review">
@@ -33,7 +33,7 @@ $title = 'Coffeedigger | Profile ';
                 <hr class="profile">
                 
                 <div id="icon-coffee-left">
-                	<img src="images/logos/starbucks.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/stumptown-coffee.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -51,7 +51,7 @@ $title = 'Coffeedigger | Profile ';
               <div class="profile-overview">
                             
                 <div id="icon-coffee-left">
-                	<img src="images/logos/healthy-coffee.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/the-coffee-bean.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -68,7 +68,7 @@ $title = 'Coffeedigger | Profile ';
               <div class="profile-overview">
                             
                 <div id="icon-coffee-left">
-                	<img src="images/logos/seattle-coffee-works.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/dr-cafe.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -85,7 +85,7 @@ $title = 'Coffeedigger | Profile ';
               <div class="profile-overview">
                             
                 <div id="icon-coffee-left">
-                	<img src="images/logos/cafee-vita.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/herkimer-coffee.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -112,7 +112,7 @@ $title = 'Coffeedigger | Profile ';
           	<!--COFFEE-->
             <div class="profile-overview">
                     <div class="profile-review">
-                        <h3>Cafe Estima Blend</h3>
+                        <h3>Holler Mountain Blend</h3>
                         <img src="images/shovel.png" alt="shovel" >
                         <p>
                         <?php
@@ -126,12 +126,12 @@ $title = 'Coffeedigger | Profile ';
                  
                 <hr class="profile">
                 <div class="profile-p">
-                    <p><h1 class="profile-h1">Roaster:</h1> Starbucks </p>
+                    <p><h1 class="profile-h1">Roaster:</h1> Stumptown </p>
                     <p><h1 class="profile-h1">Type:</h1> Blend </p>
-                    <p><h1 class="profile-h1">Roast:</h1> Dark </p>
+                    <p><h1 class="profile-h1">Roast:</h1> Medium </p>
                     <p><h1 class="profile-h1">Region:</h1> Latin America </p>
-                    <p><h1 class="profile-h1">Price:</h1> $23.99</p>
-                    <p><h1 class="profile-h1">Trending:</h1> Cafecito </p>
+                    <p><h1 class="profile-h1">Price:</h1> $16.00</p>
+                    <p><h1 class="profile-h1">Trending:</h1> Whole Bean </p>
                 	</div>
                 </div>
                 <!--COFFEE ENDS-->
@@ -144,9 +144,8 @@ $title = 'Coffeedigger | Profile ';
                     
                 <hr class="profile">
                 <div class="profile-p">
-                    <p>Espresso caffeine, cappuccino white arabica mocha mazagran. Bar, redeye single shot skinny so aged crema. French press chicory, redeye beans coffee affogato aftertaste mazagran. Latte doppio plunger pot milk ristretto viennese milk.</p>
-                    <p>Froth coffee cup irish, medium eu crema crema latte. Americano eu cortado qui medium percolator espresso cappuccino. Variety plunger pot aromatic café au lait, strong siphon cup redeye fair trade a latte. Caramelization macchiato wings, skinny mazagran, kopi-luwak, to go grounds ristretto french press coffee.</p>
-                    
+                    <p>From all over the world, the beans come to us. A cup of Holler Mountain combines earthy Indonesian textures with the brightness of fine Latin American beans. It’s an incredible versatile blend.</p>
+                    <p>Although the coffee comes from all over, each of our producers has something in common: the cherry are picked at the height of ripeness and carefully processed. Clear flavors of blackberry, citrus and toffee shine through in a creamy, full body.</p>
                     
                 </div>
               </div>

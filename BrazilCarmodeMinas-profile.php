@@ -33,7 +33,7 @@ $title = 'Coffeedigger | Profile ';
                 <hr class="profile">
                 
                 <div id="icon-coffee-left">
-                	<img src="images/coffee-tree-logo.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/seattle-coffee-works.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -51,7 +51,7 @@ $title = 'Coffeedigger | Profile ';
               <div class="profile-overview">
                             
                 <div id="icon-coffee-left">
-                	<img src="images/the-coffee-bean.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/the-coffee-bean.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -68,7 +68,7 @@ $title = 'Coffeedigger | Profile ';
               <div class="profile-overview">
                             
                 <div id="icon-coffee-left">
-                	<img src="images/the-coffee.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/the-coffee.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -85,7 +85,7 @@ $title = 'Coffeedigger | Profile ';
               <div class="profile-overview">
                             
                 <div id="icon-coffee-left">
-                	<img src="images/the-mortgage-cafe.png" class="coffee-logo" alt="profile-image-coffee1" >
+                	<img src="images/logos/the-mortgage-cafe.png" class="coffee-logo" alt="profile-image-coffee1" >
                 </div>
                 
                 <div id="description-coffee-left">
@@ -114,7 +114,14 @@ $title = 'Coffeedigger | Profile ';
                     <div class="profile-review">
                         <h3>Brazil Carmo de Minas</h3>
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>107</p>
+                        <p>
+                        <?php
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '9'") or die(mysql_error());
+                        while($row = mysql_fetch_assoc($sql)){
+                             echo $row['digs'];
+                                }
+                        ?>                                 
+                        </p>
                     </div>
                  
                 <hr class="profile">
