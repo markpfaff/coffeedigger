@@ -114,7 +114,7 @@ $title = 'Coffeedigger | Profile ';
                         <h3>Portofino Blend</h3>
                         <img src="images/shovel.png" alt="shovel" >
                         <form action="send_porto.php" method="POST">
-                        	<button class="dig" type="submit" value="Submit" ><img class="button-dig" src="images/shovel.png" alt="Submit">Dig</button>
+                        	<button class="dig" type="submit"  name="digs" value="Submit" ><img class="button-dig" src="images/shovel.png" alt="Submit">Dig</button>
                         </form>
                         <p>
                         
