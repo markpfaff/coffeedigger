@@ -777,6 +777,36 @@ ul.mainbean img {
 
 /*End Comment Styles*/
 
+@media (max-width: 1600px) {
+    .filter {
+        padding-left: 8%;
+    }
+}
+
+@media (max-width: 1570px) {
+    .filter {
+        padding-left: 7%;
+    }
+}
+
+@media (max-width: 1550px) {
+    .filter {
+        padding-left: 6%;
+    }
+}
+
+@media (max-width: 1520px) {
+    .filter {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .filter {
+        padding-left: 4%;
+    }
+}
+
 @media (max-width: 1450px) {
 
     .contact-form {

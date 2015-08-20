@@ -1,7 +1,6 @@
 <?php
-//coffeedigger profile page
-include('includes/header.php');
 $title = 'Coffeedigger | Profile ';
+include('includes/header.php');
 ?>
 <!--BAR WITH GO BACK MENU-->
 <div class="form-group filter">

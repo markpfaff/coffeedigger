@@ -1,5 +1,4 @@
 <?php
-//coffeedigger profile page
 $title = 'Coffeedigger | Profile ';
 include('includes/header.php');
 ?>
