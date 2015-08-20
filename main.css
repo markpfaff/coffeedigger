@@ -752,7 +752,7 @@ ul.mainbean img {
 /*End Comment Styles*/
 
 @media (max-width: 1450px) {
-    aside {
+    .aside {
             display:none;
     }
 
