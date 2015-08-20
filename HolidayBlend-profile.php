@@ -114,7 +114,11 @@ $title = 'Coffeedigger | Profile ';
                     <div class="profile-review">
                         <h3>Holiday Blend</h3>
                         <img src="images/shovel.png" alt="shovel" >
+                        <form action="send_formdata_coffees.php" method="POST">
+                        	<button class="dig" type="submit" value="Submit" ><img class="button-dig" src="images/shovel.png" alt="Submit">Dig</button>
+                        </form>
                         <p>
+                        
                         <?php
                         $sql = mysql_query("SELECT * FROM coffee WHERE ID = '9'") or die(mysql_error());
                         while($row = mysql_fetch_assoc($sql)){
