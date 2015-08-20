@@ -123,7 +123,7 @@ $title = 'Coffeedigger | Profile ';
                                </button>
                         </form>                            
                         <?php
-                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '9'") or die(mysql_error());
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '7'") or die(mysql_error());
                         while($row = mysql_fetch_assoc($sql)){
                              echo $row['digs'];
                                 }
