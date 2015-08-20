@@ -15,11 +15,11 @@ $title = 'Coffeedigger | About';
         <div class="row">
    
             <div class="col-md-12">
-                <div class="overview">
+                <div class="about-overview">
                   <h3 class="about">About Us</h3>
-							<div class="about-pic">
+<!--							<div class="about-pic">
 								<img alt="image for about page" class="about" src="images/cup.jpg">  
-							</div>
+							</div>-->
                   <hr>
 				  
 				 <div class="about-info">
