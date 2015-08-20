@@ -41,6 +41,10 @@ header {
     height: 200px;
     margin-top: 30px;
 }
+
+aside.contact {
+        display:none;
+}
 .searchbox {
     margin: 25% auto 0 10%;
 }
@@ -369,6 +373,11 @@ button.dig{
     height: 40px;
     margin: -5px 19px 10px;
     width: 88px;
+}
+
+.dig-score {
+color: #ffae00;
+font-size: 1.5em;
 }
 
 button.dig:hover {
@@ -752,9 +761,6 @@ ul.mainbean img {
 /*End Comment Styles*/
 
 @media (max-width: 1450px) {
-    .aside {
-            display:none;
-    }
 
     .contact-form {
             padding-left:20%;
@@ -769,7 +775,6 @@ ul.mainbean img {
 
 @media (max-width: 1200px) {
 aside {
-	display: none;
 	float: left;	
 	}
 }
@@ -862,7 +867,9 @@ header {
 
 
 #content{
-	width:80%;	
+    width:80%;
+    margin: 0 auto;
+    float: none;
 }
 
 #middle{
