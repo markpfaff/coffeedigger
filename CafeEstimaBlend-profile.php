@@ -113,17 +113,22 @@ $title = 'Coffeedigger | Profile ';
             <div class="profile-overview">
                     <div class="profile-review">
                         <h3>Cafe Estima Blend</h3>
-                        <form id="form_members" role="form" action="send_estima.php" method="POST">
-                        	   <button class="dig" type="submit" name="digs" value="Submit" >
-                                   <img class="button-dig" src="images/shovel.png" alt="Submit">Dig
-                               </button>
-                        </form>                            
-                        <?php
-                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '19'") or die(mysql_error());
-                        while($row = mysql_fetch_assoc($sql)){
-                             echo $row['digs'];
-                                }
-                        ?>
+                        <div class="dig-container">
+                            <p class="dig-score">
+                                            <?php
+                                            $sql = mysql_query("SELECT * FROM coffee WHERE ID = '19'") or die(mysql_error());
+                                            while($row = mysql_fetch_assoc($sql)){
+                                                 echo $row['digs'];
+                                                    }
+                                            ?>   
+                            </p>
+                            <form id="form_members" role="form" action="send_estima.php" method="POST">
+                                   <button class="dig" type="submit" name="digs" value="Submit" >
+                                       <img class="button-dig" src="images/shovel.png" alt="Submit">Dig
+                                   </button>
+                            </form>                            
+                        </div>      
+                       
                     </div>
                  
                 <hr class="profile">

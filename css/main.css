@@ -70,6 +70,15 @@ nav ul li a:hover {
     color: #f5c55d;
 }
 
+.index-image {
+    background-image: url(..images/indonesia-sulawesi.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-left: 7.5%;
+    width: 85%;
+    height: 163px;
+}
+
 .mainbean {
     margin: 0 auto;
     width: 85%;
@@ -114,7 +123,7 @@ hr {
 }
 .overview h3, .review p {
     display: inline;
-    font-size: 15px;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -333,8 +342,9 @@ hr.profile {
 .profile-overview h3 {
     color: #6f372e;
     display: inline;
-    font-size: 20px;
+    font-size: 2em;    
     font-weight: bold;
+    line-height: 2.2em;
 }
 .profile-review p {
     color: #5d5d5d;
@@ -371,18 +381,25 @@ button.dig{
     font-size: 20px;
     font-weight: 100;
     height: 40px;
-    margin: -5px 19px 10px;
     width: 88px;
+    margin-top: 10px;    
 }
 
-.dig-score {
-color: #ffae00;
-font-size: 1.5em;
+p.dig-score {
+    color: #FFAE00;
+    font-size: 3em;
+    float:left;
+}
+
+.dig-container {
+    width: 150px;
+    float:right;
 }
 
 button.dig:hover {
 cursor: pointer;
 background-color: #FABD44;
+
 }
 
 button:active {
@@ -793,7 +810,6 @@ button.dig {
     height: 40px;
     -webkit-margin: -9px 92px 0px;
 	-moz-margin: -9px 92px 0px;
-	margin: -8px 10px -36px 172px;
     width: 88px;
 	}
 }
@@ -862,7 +878,8 @@ header {
 }
 .profile-review{
 	display: table-header-group;
-	
+	float: left;
+        width: 100%;
 }
 
 
@@ -955,7 +972,6 @@ button.dig {
     height: 40px;
     -webkit-margin: -8px 10px -36px 172px;
 	-moz-margin: -9px 92px 0px;
-	margin: 8px -84px -4px -1px;
     width: 88px;
 }
 

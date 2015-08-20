@@ -113,19 +113,22 @@ $title = 'Coffeedigger | Profile ';
             <div class="profile-overview">
                     <div class="profile-review">
                         <h3>Kenya Nyeri Mutwewathi</h3>
-                        <img src="images/shovel.png" alt="shovel" >
-                        <form action="send_kenyany.php" method="POST">
-                        	<button class="dig" type="submit"  name="digs" value="Submit" ><img class="button-dig" src="images/shovel.png" alt="Submit">Dig</button>
-                        </form>
-                        <p>
-                        
-                        <?php
-                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '13'") or die(mysql_error());
-                        while($row = mysql_fetch_assoc($sql)){
-                             echo $row['digs'];
-                                }
-                        ?>                                 
-                        </p>
+                        <div class="dig-container">
+                            <p class="dig-score">
+                                            <?php
+                                            $sql = mysql_query("SELECT * FROM coffee WHERE ID = '13'") or die(mysql_error());
+                                            while($row = mysql_fetch_assoc($sql)){
+                                                 echo $row['digs'];
+                                                    }
+                                            ?>   
+                            </p>
+                            <form id="form_members" role="form" action="send_kenyany.php" method="POST">
+                                   <button class="dig" type="submit" name="digs" value="Submit" >
+                                       <img class="button-dig" src="images/shovel.png" alt="Submit">Dig
+                                   </button>
+                            </form>                            
+                        </div>      
+                       
                     </div>
                  
                 <hr class="profile">
