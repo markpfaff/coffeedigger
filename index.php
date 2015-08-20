@@ -277,7 +277,7 @@ include('includes/config.php');
                         <img src="images/shovel.png" alt="shovel" >
                         <p>
                         <?php
-                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '12'") or die(mysql_error());
+                        $sql = mysql_query("SELECT * FROM coffee WHERE ID = '11'") or die(mysql_error());
                         while($row = mysql_fetch_assoc($sql)){
                              echo $row['digs'];
                                 }
