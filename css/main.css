@@ -524,7 +524,7 @@ a {
 .filter {
     background-color: #6f372e;
     height: 80px;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-top: 24px;
 }
 
@@ -834,6 +834,10 @@ nav ul {
 	top:-85px;
         float: right;
         margin-right: 5%;	
+}
+
+h3.search-title {
+    color:#6f372e;
 }
 
     
