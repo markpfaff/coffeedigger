@@ -114,7 +114,7 @@ $title = 'Coffeedigger | Profile ';
                     <div class="profile-review">
                         <h3>House Blend</h3>
                         <img src="images/shovel.png" alt="shovel" >
-                        <form action="send_formdata_coffees.php" method="POST">
+                        <form action="send_houset.php" method="POST">
                         	<button class="dig" type="submit" value="Submit" ><img class="button-dig" src="images/shovel.png" alt="Submit">Dig</button>
                         </form>
                         <p>
