@@ -114,9 +114,13 @@ $title = 'Coffeedigger | Profile ';
                     <div class="profile-review">
                         <h3>Brazil Carmo de Minas</h3>
                         <img src="images/shovel.png" alt="shovel" >
-                        <p>
-                        <form action="send_formdata_coffees.php" method="POST">
-                        	   <button class="dig" type="submit" value="Submit" ><img class="button-dig" src="images/shovel.png" alt="Submit">Dig</button>
+                        
+                        <form id="form_members" role="form" action="send_formdata_coffees.php" method="POST">
+                            
+                            
+                        	   <button class="dig" type="submit" name="digs" value="Submit" >
+                                   <img class="button-dig" src="images/shovel.png" alt="Submit">Dig
+                               </button>
                         </form>                            
                         <?php
                         $sql = mysql_query("SELECT * FROM coffee WHERE ID = '9'") or die(mysql_error());
@@ -124,7 +128,7 @@ $title = 'Coffeedigger | Profile ';
                              echo $row['digs'];
                                 }
                         ?>                                 
-                        </p>
+                       
                     </div>
                  
                 <hr class="profile">
