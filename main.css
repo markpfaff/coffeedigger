@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'oliv';
+    src: url('..fonts/olivier_demo-webfont.eot');
+    src: url('..fonts/olivier_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('..fonts/olivier_demo-webfont.woff2') format('woff2'),
+         url('..fonts/olivier_demo-webfont.woff') format('woff'),
+         url('..fonts/olivier_demo-webfont.ttf') format('truetype'),
+         url('..fonts/olivier_demo-webfont.svg#olivierregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     min-width: 500px;
 }
@@ -6,12 +18,22 @@ h1 {
     color: #fff;
     display: inline;
     font-size: 2em;
+    font-family: 'oliv'; 
 }
 h2 {
     color: #fff;
     display: inline;
     text-align: center;
+    font-family: 'oliv'; 
 }
+
+h3 {
+    font-family: 'oliv';
+    color: #fff;
+    display: inline;
+    text-align: center;    
+}
+
 body {
     background-color: #fff2df;
 }
@@ -37,6 +59,8 @@ nav ul li {
 nav ul li a {
     color: #6f372e;
     font-size: 20px;
+    font-family: "oliv";
+    font-size: 1.6em;    
 }
 nav ul li a:hover {
     color: #f5c55d;
@@ -518,6 +542,7 @@ ul.filter-function li {
     float: left;
     position:relative;
     font-size: 1.7em;
+    text-align: center;
 }
 
 ul.filter-function li a,
@@ -727,7 +752,7 @@ ul.mainbean img {
 /*End Comment Styles*/
 
 @media (max-width: 1450px) {
-    aside {
+    #right-sidebar {
             display:none;
     }
 
@@ -737,9 +762,37 @@ ul.mainbean img {
 
     .index.filter {
         height: 100px;
+        padding-left:0px;
     }
     
 }
+
+@media (max-width: 1200px) {
+#right-sidebar{
+	display: none;
+	float: left;	
+	}
+}
+
+@media (max-width: 1000px) {
+button.dig {
+	clear: both;
+	background-color: #ffae00;
+    border: medium none;
+    border-radius: 10px;
+    color: #6f372e;
+    display: block;
+    float: right;
+    font-size: 20px;
+    font-weight: 100;
+    height: 40px;
+    -webkit-margin: -9px 92px 0px;
+	-moz-margin: -9px 92px 0px;
+	margin: -8px 10px -36px 172px;
+    width: 88px;
+	}
+}
+
 @media (max-width: 991px) {
 
 nav {
@@ -832,15 +885,6 @@ header {
 	}
 }
 
-@media (max-width: 600px) {
-
-    ul.filter-function {  
-
-        width: 100%;
-        padding-left:5%;
-    }
-}
-
 @media (max-width: 767px) {
 
     
@@ -881,31 +925,13 @@ ul.filter-function li {
 }
 }
 
+@media (max-width: 600px) {
 
-@media (max-width: 1200px) {
-#right-sidebar{
-	display: none;
-	float: left;	
-	}
-}
+    ul.filter-function {  
 
-@media (max-width: 1000px) {
-button.dig {
-	clear: both;
-	background-color: #ffae00;
-    border: medium none;
-    border-radius: 10px;
-    color: #6f372e;
-    display: block;
-    float: right;
-    font-size: 20px;
-    font-weight: 100;
-    height: 40px;
-    -webkit-margin: -9px 92px 0px;
-	-moz-margin: -9px 92px 0px;
-	margin: -8px 10px -36px 172px;
-    width: 88px;
-	}
+        width: 100%;
+        padding-left:5%;
+    }
 }
 
 @media (max-width: 567px){
