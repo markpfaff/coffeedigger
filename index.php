@@ -1,15 +1,7 @@
 <?php
-//coffeedigger home page
-include('includes/header.php');
 $title = 'Coffeedigger | Home';
+include('includes/header.php');
 include('includes/config.php');
-
-//while($mysqldigs = mysql_fetch_assoc($sql)){ 
-//    $digs = $mysqldigs['digs'];
-
-
-
-
 ?>
 
  

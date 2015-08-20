@@ -1,7 +1,7 @@
 <?php
-//coffeedigger about page
-include('includes/header.php');
 $title = 'Coffeedigger | About';
+include('includes/header.php');
+
 ?>
    
 <section>

@@ -1,7 +1,6 @@
 <?php
-//coffeedigger contact page
-include('includes/header.php');
 $title = 'Coffeedigger | Contact';
+include('includes/header.php');
 ?>
 
 <section class="text-center contact">
